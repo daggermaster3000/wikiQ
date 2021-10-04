@@ -1,0 +1,32 @@
+/* CSS to "reset" styles of the iGEM wiki page. */
+
+/* Do not show the '#top_title' element. */
+#top_title {
+	display: none;
+}
+
+/* 
+ * Make the '#content' element cover all available width instead of 950px
+ * and reset all its margins and paddings.
+ */
+#content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Avoid the '1px solid #aaa' border. */
+h1, h2, h3, h4, h5, h6 {
+	border: none;
+}
+
+/* Avoid spacing between content and iGEM bar created by paragraph margins. */
+#mw-content-text p {
+	margin: 0;
+}
+
+/* Remove the '10px' padding at the bottom of the page. */
+#globalWrapper {
+	padding-bottom: 0;
+}
+
