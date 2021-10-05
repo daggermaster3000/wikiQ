@@ -7,6 +7,10 @@
     text-decoration: none !important;
     font-family: 'Noto Sans Display', sans-serif;
 }
+footer{
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+}
 
 html {
     scroll-behavior: smooth;
@@ -60,8 +64,8 @@ nav .content .links {
 }
 
 .content .links li .desktop-link:hover {
-    background: #fff;
-    color:  black!important;
+    background: none;
+    color: #fff !important;
 }
 
 .content .links li label {
@@ -69,10 +73,11 @@ nav .content .links {
 }
 
 .wrapper .content .links ul li a:hover,
-.content .links li label:hover {
+.content .links li label:hover,
+.highlight-me-daddy:hover {
     text-decoration: none;
     background: #ffffff !important;
-    color: black;
+    color: black!important;
 }
 
 .wrapper .search-icon,
@@ -306,7 +311,7 @@ footer {
     height: auto;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    min-width: 400px;
+    min-width: 600px;
 }
 
 footer div {
@@ -332,11 +337,12 @@ footer div {
     border-bottom: white 1px solid;
     padding: 20px;
     margin-top: 0px;
-    font-size: 2.5vw;
+    font-size: calc(15px + 1.5vw);
 }
 
 #sponsor img {
     width: 70%;
+    min-width: 50px;
 }
 
 #follow {
@@ -354,11 +360,12 @@ footer div {
     padding: 20px;
     margin-top: 0px;
     border-bottom: white 1px solid;
-    font-size: 2.5vw;
+    font-size: calc(15px + 1.5vw);
 }
 
 #follow img {
     width: 70%;
+    min-width: 40px;
 }
 
 #contact {
@@ -376,11 +383,12 @@ footer div {
     padding: 20px;
     margin-top: 0px;
     border-bottom: white 1px solid;
-    font-size: 2.5vw;
+    font-size: calc(15px + 1.5vw);
 }
 
 #contact img {
     width: 70%;
+    min-width: 40px;
 }
 
 #mail {
