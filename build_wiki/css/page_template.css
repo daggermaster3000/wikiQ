@@ -1,0 +1,104 @@
+body,
+html {
+    height: 100%;
+}
+
+
+/*div containing title image*/
+
+.top_display-drylab {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("images/engineering/DSC01046.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-project {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("images/Photo_tiphaines/julien-abri.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .top_display {
+        background-attachment: scroll;
+    }
+}
+
+.top_display img {
+    width: 100%;
+    min-width: 400px;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+
+/*div containing title*/
+
+.bottom-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*title of page over image */
+
+.title-shadow {
+    font-size: 15vw;
+    text-rendering: optimizeLegibility;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+/*text content of the page*/
+
+.elegant-shadow {
+    color: #2c2c2c;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.description-text {
+    min-width: 400px;
+    min-height: 50vh;
+}
+
+.description-text h1 {
+    font-size: 4vw;
+    padding-top: 100px;
+    margin-top: -40px;
+    display: inline-block;
+    /* required for webkit browsers */
+}
+
+.description-text p {
+    font-size: 1.6vw;
+    padding-top: 80px;
+    margin-top: -40px;
+    display: inline-block;
+    /* required for webkit browsers */
+}
