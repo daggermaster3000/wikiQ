@@ -1,453 +1,507 @@
-2021-10-04 20:32:06,473 : INFO : iGEM_login : Already logged in.
-2021-10-04 20:32:06,682 : ERROR : cache_files : assets\logo\team_2021\final logo black.ai has an unsupported file extension. Skipping.
-2021-10-04 20:32:08,345 : INFO : build_and_upload : Contents of Attributions.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,352 : WARNING : iGEM_URL : src\style copy.css is referenced in src\Awards.html but was not found.
-2021-10-04 20:32:08,358 : INFO : iGEM_URL : style copy.css was changed to https://2021.igem.org/Template:UNILausanne/style copyCSS?action=raw&ctype=text/css in Awards.html.
-2021-10-04 20:32:08,360 : WARNING : iGEM_URL : src\src\index.html is referenced in src\Awards.html but was not found.
-2021-10-04 20:32:08,361 : INFO : iGEM_URL : src/index.html was changed to https://2021.igem.org/Team:UNILausanne/src in Awards.html.
-2021-10-04 20:32:08,362 : WARNING : iGEM_URL : src\src\index.html is referenced in src\Awards.html but was not found.
-2021-10-04 20:32:08,363 : INFO : iGEM_URL : src/index.html was changed to https://2021.igem.org/Team:UNILausanne/src in Awards.html.
-2021-10-04 20:32:08,363 : WARNING : iGEM_URL : src\src\project.html is referenced in src\Awards.html but was not found.
-2021-10-04 20:32:08,365 : INFO : iGEM_URL : src/project.html was changed to https://2021.igem.org/Team:UNILausanne/src/project in Awards.html.
-2021-10-04 20:32:08,365 : WARNING : iGEM_URL : src\src\wetlab.html is referenced in src\Awards.html but was not found.
-2021-10-04 20:32:08,367 : INFO : iGEM_URL : src/wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/src/wetlab in Awards.html.
-2021-10-04 20:32:08,367 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in Awards.html.
-2021-10-04 20:32:08,368 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in Awards.html.
-2021-10-04 20:32:08,368 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in Awards.html.
-2021-10-04 20:32:08,369 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:UNILausanne/Attributions in Awards.html.
-2021-10-04 20:32:08,369 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in Awards.html.
-2021-10-04 20:32:08,378 : INFO : build_and_upload : Contents of Awards.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,378 : INFO : build_and_upload : Contents of Collaborations.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,378 : INFO : build_and_upload : Contents of Communication.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,378 : INFO : build_and_upload : Contents of Contribution.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,378 : INFO : build_and_upload : Contents of Description.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,410 : WARNING : iGEM_URL : src\navbar.css is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,415 : INFO : iGEM_URL : navbar.css was changed to https://2021.igem.org/Template:UNILausanne/navbarCSS?action=raw&ctype=text/css in drylab.html.
-2021-10-04 20:32:08,417 : WARNING : iGEM_URL : src\template_style2.css is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,417 : INFO : iGEM_URL : template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/template_style2CSS?action=raw&ctype=text/css in drylab.html.
-2021-10-04 20:32:08,418 : WARNING : iGEM_URL : src\page_template.css is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,419 : INFO : iGEM_URL : page_template.css was changed to https://2021.igem.org/Template:UNILausanne/page_templateCSS?action=raw&ctype=text/css in drylab.html.
-2021-10-04 20:32:08,420 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,421 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,424 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in drylab.html.
-2021-10-04 20:32:08,426 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in drylab.html.
-2021-10-04 20:32:08,428 : WARNING : iGEM_URL : src\project.html#description is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,429 : WARNING : iGEM_URL : project.html#description is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,430 : WARNING : iGEM_URL : src\project.html#design is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,430 : WARNING : iGEM_URL : project.html#design is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,432 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,432 : WARNING : iGEM_URL : project.html#proof is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,434 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in drylab.html.
-2021-10-04 20:32:08,435 : WARNING : iGEM_URL : src\wetlab.html#succes is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,435 : WARNING : iGEM_URL : wetlab.html#succes is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,437 : WARNING : iGEM_URL : src\wetlab.html#results is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,437 : WARNING : iGEM_URL : wetlab.html#results is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,439 : WARNING : iGEM_URL : src\wetlab.html#measurements is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,440 : WARNING : iGEM_URL : wetlab.html#measurements is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,441 : WARNING : iGEM_URL : src\wetlab.html#parts is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,442 : WARNING : iGEM_URL : wetlab.html#parts is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,445 : WARNING : iGEM_URL : src\wetlab.html#notebook is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,445 : WARNING : iGEM_URL : wetlab.html#notebook is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,446 : WARNING : iGEM_URL : src\wetlab.html#safety is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,446 : WARNING : iGEM_URL : wetlab.html#safety is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,448 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in drylab.html.
-2021-10-04 20:32:08,450 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in drylab.html.
-2021-10-04 20:32:08,452 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,454 : WARNING : iGEM_URL : human practices.html#integrated is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,460 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,462 : WARNING : iGEM_URL : human practices.html# is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,465 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,466 : WARNING : iGEM_URL : human practices.html# is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,467 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in drylab.html.
-2021-10-04 20:32:08,467 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,469 : WARNING : iGEM_URL : awards.html#bronze is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,471 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,474 : WARNING : iGEM_URL : awards.html#silver is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,476 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,478 : WARNING : iGEM_URL : awards.html#gold is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,480 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in drylab.html.
-2021-10-04 20:32:08,490 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,491 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,495 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,496 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,499 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,500 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,503 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,504 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,508 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,509 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,514 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,514 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,516 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,517 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,518 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,519 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,520 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,521 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,523 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,524 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,526 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,527 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,528 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,529 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,530 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\drylab.html but was not found.
-2021-10-04 20:32:08,531 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in drylab.html but was not found.
-2021-10-04 20:32:08,544 : INFO : build_and_upload : Contents of drylab.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,544 : INFO : build_and_upload : Contents of Education.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,544 : INFO : build_and_upload : Contents of Engineering.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,554 : INFO : build_and_upload : Contents of Experiments.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,556 : INFO : build_and_upload : Contents of Hardware.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,578 : WARNING : iGEM_URL : src\style copy.css is referenced in src\Human_Practices.html but was not found.
-2021-10-04 20:32:08,579 : INFO : iGEM_URL : style copy.css was changed to https://2021.igem.org/Template:UNILausanne/style copyCSS?action=raw&ctype=text/css in Human_Practices.html.
-2021-10-04 20:32:08,583 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in Human_Practices.html.
-2021-10-04 20:32:08,585 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in Human_Practices.html.
-2021-10-04 20:32:08,586 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in Human_Practices.html.
-2021-10-04 20:32:08,587 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in Human_Practices.html.
-2021-10-04 20:32:08,588 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in Human_Practices.html.
-2021-10-04 20:32:08,590 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in Human_Practices.html.
-2021-10-04 20:32:08,590 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in Human_Practices.html.
-2021-10-04 20:32:08,592 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:UNILausanne/Attributions in Human_Practices.html.
-2021-10-04 20:32:08,594 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in Human_Practices.html.
-2021-10-04 20:32:08,616 : INFO : build_and_upload : Contents of Human_Practices.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,619 : INFO : build_and_upload : Contents of Implementation.html have been uploaded previously. Skipping.
-2021-10-04 20:32:08,677 : INFO : iGEM_URL : css/navbar1.css was changed to https://2021.igem.org/Template:UNILausanne/css/navbar1CSS?action=raw&ctype=text/css in index.html.
-2021-10-04 20:32:08,678 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:UNILausanne/css/igem-resetCSS?action=raw&ctype=text/css in index.html.
-2021-10-04 20:32:08,679 : INFO : iGEM_URL : css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/css/template_style2CSS?action=raw&ctype=text/css in index.html.
-2021-10-04 20:32:08,679 : INFO : iGEM_URL : css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/css/page_templateCSS?action=raw&ctype=text/css in index.html.
-2021-10-04 20:32:08,679 : INFO : iGEM_URL : assets/logo/team_2021/square_logo.png was changed to https://2021.igem.org/wiki/images/3/35/T--UNILausanne--logo--team_2021--square_logo.png in index.html.
-2021-10-04 20:32:08,679 : INFO : iGEM_URL : css/style copy.CSS was changed to https://2021.igem.org/Template:UNILausanne/css/style copyCSS?action=raw&ctype=text/css in index.html.
-2021-10-04 20:32:08,687 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in index.html.
-2021-10-04 20:32:08,688 : INFO : iGEM_URL : description.html was changed to https://2021.igem.org/Team:UNILausanne/Description in index.html.
-2021-10-04 20:32:08,690 : WARNING : iGEM_URL : src\design.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,691 : INFO : iGEM_URL : design.html was changed to https://2021.igem.org/Team:UNILausanne/design in index.html.
-2021-10-04 20:32:08,693 : WARNING : iGEM_URL : src\proofofconcept.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,693 : INFO : iGEM_URL : proofofconcept.html was changed to https://2021.igem.org/Team:UNILausanne/proofofconcept in index.html.
-2021-10-04 20:32:08,694 : INFO : iGEM_URL : contribution.html was changed to https://2021.igem.org/Team:UNILausanne/Contribution in index.html.
-2021-10-04 20:32:08,695 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in index.html.
-2021-10-04 20:32:08,695 : INFO : iGEM_URL : results.html was changed to https://2021.igem.org/Team:UNILausanne/Results in index.html.
-2021-10-04 20:32:08,695 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in index.html.
-2021-10-04 20:32:08,700 : WARNING : iGEM_URL : src\measurements.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,701 : INFO : iGEM_URL : measurements.html was changed to https://2021.igem.org/Team:UNILausanne/measurements in index.html.
-2021-10-04 20:32:08,702 : INFO : iGEM_URL : parts.html was changed to https://2021.igem.org/Team:UNILausanne/Parts in index.html.
-2021-10-04 20:32:08,702 : INFO : iGEM_URL : notebook.html was changed to https://2021.igem.org/Team:UNILausanne/Notebook in index.html.
-2021-10-04 20:32:08,702 : INFO : iGEM_URL : safety.html was changed to https://2021.igem.org/Team:UNILausanne/Safety in index.html.
-2021-10-04 20:32:08,705 : INFO : iGEM_URL : hardware.html was changed to https://2021.igem.org/Team:UNILausanne/Hardware in index.html.
-2021-10-04 20:32:08,706 : INFO : iGEM_URL : software.html was changed to https://2021.igem.org/Team:UNILausanne/Software in index.html.
-2021-10-04 20:32:08,706 : INFO : iGEM_URL : model.html was changed to https://2021.igem.org/Team:UNILausanne/Model in index.html.
-2021-10-04 20:32:08,710 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in index.html.
-2021-10-04 20:32:08,711 : WARNING : iGEM_URL : src\integratedhumanpractices.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,711 : INFO : iGEM_URL : integratedhumanpractices.html was changed to https://2021.igem.org/Team:UNILausanne/integratedhumanpractices in index.html.
-2021-10-04 20:32:08,712 : INFO : iGEM_URL : implementation.html was changed to https://2021.igem.org/Team:UNILausanne/Implementation in index.html.
-2021-10-04 20:32:08,713 : WARNING : iGEM_URL : src\communication.htm is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,713 : WARNING : iGEM_URL : communication.htm is referenced in index.html but was not found.
-2021-10-04 20:32:08,714 : INFO : iGEM_URL : education.html was changed to https://2021.igem.org/Team:UNILausanne/Education in index.html.
-2021-10-04 20:32:08,715 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in index.html.
-2021-10-04 20:32:08,715 : WARNING : iGEM_URL : src\attribution.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,716 : INFO : iGEM_URL : attribution.html was changed to https://2021.igem.org/Team:UNILausanne/attribution in index.html.
-2021-10-04 20:32:08,717 : WARNING : iGEM_URL : src\collaboration.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,718 : INFO : iGEM_URL : collaboration.html was changed to https://2021.igem.org/Team:UNILausanne/collaboration in index.html.
-2021-10-04 20:32:08,718 : INFO : iGEM_URL : partnership.html was changed to https://2021.igem.org/Team:UNILausanne/Partnership in index.html.
-2021-10-04 20:32:08,719 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in index.html.
-2021-10-04 20:32:08,720 : WARNING : iGEM_URL : src\medals.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,721 : INFO : iGEM_URL : medals.html was changed to https://2021.igem.org/Team:UNILausanne/medals in index.html.
-2021-10-04 20:32:08,721 : WARNING : iGEM_URL : src\specialprizes.html is referenced in src\index.html but was not found.
-2021-10-04 20:32:08,721 : INFO : iGEM_URL : specialprizes.html was changed to https://2021.igem.org/Team:UNILausanne/specialprizes in index.html.
-2021-10-04 20:32:08,731 : INFO : iGEM_URL : assets\logo\team_2021\menu_white.svg was changed to https://2021.igem.org/wiki/images/c/c7/T--UNILausanne--logo--team_2021--menu_white.svg in index.html.
-2021-10-04 20:32:08,731 : INFO : iGEM_URL : assets\logo\team_2021\Asset 1.svg was changed to https://2021.igem.org/wiki/images/f/f1/T--UNILausanne--logo--team_2021--Asset_1.svg in index.html.
-2021-10-04 20:32:08,732 : INFO : iGEM_URL : assets/logo/team_2021/logo_home.png was changed to https://2021.igem.org/wiki/images/c/c4/T--UNILausanne--logo--team_2021--logo_home.png in index.html.
-2021-10-04 20:32:08,732 : INFO : iGEM_URL : assets/blender/silouette arbre.png was changed to https://2021.igem.org/wiki/images/b/b2/T--UNILausanne--blender--silouette_arbre.png in index.html.
-2021-10-04 20:32:08,733 : INFO : iGEM_URL : assets/blender/logo_monnaie_grey.png was changed to https://2021.igem.org/wiki/images/d/d4/T--UNILausanne--blender--logo_monnaie_grey.png in index.html.
-2021-10-04 20:32:08,733 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_yellow.png was changed to https://2021.igem.org/wiki/images/c/c0/T--UNILausanne--logo--team_2021--square_logo_yellow.png in index.html.
-2021-10-04 20:32:08,734 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_orange.png was changed to https://2021.igem.org/wiki/images/2/2a/T--UNILausanne--logo--team_2021--square_logo_orange.png in index.html.
-2021-10-04 20:32:08,734 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_red.png was changed to https://2021.igem.org/wiki/images/0/02/T--UNILausanne--logo--team_2021--square_logo_red.png in index.html.
-2021-10-04 20:32:08,734 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_yellow_phage.png was changed to https://2021.igem.org/wiki/images/8/8b/T--UNILausanne--logo--team_2021--test_logo--square_logo_yellow_phage.png in index.html.
-2021-10-04 20:32:08,735 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_orange_tailocins.png was changed to https://2021.igem.org/wiki/images/9/96/T--UNILausanne--logo--team_2021--test_logo--square_logo_orange_tailocins.png in index.html.
-2021-10-04 20:32:08,735 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_red_AFP.png was changed to https://2021.igem.org/wiki/images/f/f7/T--UNILausanne--logo--team_2021--test_logo--square_logo_red_AFP.png in index.html.
-2021-10-04 20:32:08,736 : INFO : iGEM_URL : assets/logo/sponsor/white/unil_logo_white.png was changed to https://2021.igem.org/wiki/images/5/54/T--UNILausanne--logo--sponsor--white--unil_logo_white.png in index.html.
-2021-10-04 20:32:08,736 : INFO : iGEM_URL : assets/logo/sponsor/white/biolab_logo_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--sponsor--white--biolab_logo_white.png in index.html.
-2021-10-04 20:32:08,737 : INFO : iGEM_URL : assets/logo/sponsor/white/GenScript-white.png was changed to https://2021.igem.org/wiki/images/2/2c/T--UNILausanne--logo--sponsor--white--GenScript-white.png in index.html.
-2021-10-04 20:32:08,737 : INFO : iGEM_URL : assets/logo/sponsor/white/IDT_logo_white_rmbg.png was changed to https://2021.igem.org/wiki/images/3/31/T--UNILausanne--logo--sponsor--white--IDT_logo_white_rmbg.png in index.html.
-2021-10-04 20:32:08,737 : INFO : iGEM_URL : assets/logo/sponsor/white/leenaards-removebg-white.png was changed to https://2021.igem.org/wiki/images/4/4f/T--UNILausanne--logo--sponsor--white--leenaards-removebg-white.png in index.html.
-2021-10-04 20:32:08,738 : INFO : iGEM_URL : assets/logo/sponsor/white/microsynth_logo_white.png was changed to https://2021.igem.org/wiki/images/2/26/T--UNILausanne--logo--sponsor--white--microsynth_logo_white.png in index.html.
-2021-10-04 20:32:08,738 : INFO : iGEM_URL : assets/logo/sponsor/white/Promega_logo_white.png was changed to https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--logo--sponsor--white--Promega_logo_white.png in index.html.
-2021-10-04 20:32:08,739 : INFO : iGEM_URL : assets/logo/social media/instagram_white.png was changed to https://2021.igem.org/wiki/images/6/6c/T--UNILausanne--logo--social_media--instagram_white.png in index.html.
-2021-10-04 20:32:08,740 : INFO : iGEM_URL : assets/logo/social media/Twitter_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--social_media--Twitter_white.png in index.html.
-2021-10-04 20:32:08,741 : INFO : iGEM_URL : assets/logo/social media/linkedin_white.png was changed to https://2021.igem.org/wiki/images/5/5d/T--UNILausanne--logo--social_media--linkedin_white.png in index.html.
-2021-10-04 20:32:08,742 : INFO : iGEM_URL : assets/logo/social media/logo_mail.png was changed to https://2021.igem.org/wiki/images/e/e6/T--UNILausanne--logo--social_media--logo_mail.png in index.html.
-2021-10-04 20:32:08,748 : INFO : iGEM_URL : assets/video/dreamstime_lower.mp4 was changed to https://2021.igem.org/wiki/images/b/b8/T--UNILausanne--video--dreamstime_lower.mp4 in index.html.
-2021-10-04 20:32:10,544 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILausanne&action=edit.
-2021-10-04 20:32:10,544 : INFO : build_and_upload : Contents of Measurement.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,544 : INFO : build_and_upload : Contents of Model.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,554 : INFO : build_and_upload : Contents of Notebook.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,554 : INFO : build_and_upload : Contents of Partnership.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,554 : INFO : build_and_upload : Contents of Parts.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,579 : WARNING : iGEM_URL : src\navbar.css is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,588 : INFO : iGEM_URL : navbar.css was changed to https://2021.igem.org/Template:UNILausanne/navbarCSS?action=raw&ctype=text/css in project.html.
-2021-10-04 20:32:10,590 : WARNING : iGEM_URL : src\template_style2.css is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,591 : INFO : iGEM_URL : template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/template_style2CSS?action=raw&ctype=text/css in project.html.
-2021-10-04 20:32:10,592 : WARNING : iGEM_URL : src\page_template.css is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,593 : INFO : iGEM_URL : page_template.css was changed to https://2021.igem.org/Template:UNILausanne/page_templateCSS?action=raw&ctype=text/css in project.html.
-2021-10-04 20:32:10,594 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,596 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,599 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in project.html.
-2021-10-04 20:32:10,599 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in project.html.
-2021-10-04 20:32:10,599 : WARNING : iGEM_URL : src\project.html#description is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,602 : WARNING : iGEM_URL : project.html#description is referenced in project.html but was not found.
-2021-10-04 20:32:10,603 : WARNING : iGEM_URL : src\project.html#design is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,604 : WARNING : iGEM_URL : project.html#design is referenced in project.html but was not found.
-2021-10-04 20:32:10,607 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,608 : WARNING : iGEM_URL : project.html#proof is referenced in project.html but was not found.
-2021-10-04 20:32:10,610 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in project.html.
-2021-10-04 20:32:10,612 : WARNING : iGEM_URL : src\wetlab.html#success is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,613 : WARNING : iGEM_URL : wetlab.html#success is referenced in project.html but was not found.
-2021-10-04 20:32:10,614 : WARNING : iGEM_URL : src\wetlab.html#results is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,615 : WARNING : iGEM_URL : wetlab.html#results is referenced in project.html but was not found.
-2021-10-04 20:32:10,616 : WARNING : iGEM_URL : src\wetlab.html#measurements is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,616 : WARNING : iGEM_URL : wetlab.html#measurements is referenced in project.html but was not found.
-2021-10-04 20:32:10,617 : WARNING : iGEM_URL : src\wetlab.html#parts is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,618 : WARNING : iGEM_URL : wetlab.html#parts is referenced in project.html but was not found.
-2021-10-04 20:32:10,619 : WARNING : iGEM_URL : src\wetlab.html#notebook is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,620 : WARNING : iGEM_URL : wetlab.html#notebook is referenced in project.html but was not found.
-2021-10-04 20:32:10,621 : WARNING : iGEM_URL : src\wetlab.html#safety is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,622 : WARNING : iGEM_URL : wetlab.html#safety is referenced in project.html but was not found.
-2021-10-04 20:32:10,624 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in project.html.
-2021-10-04 20:32:10,625 : WARNING : iGEM_URL : src\drylab.html#hardware is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,626 : WARNING : iGEM_URL : /drylab.html#hardware is referenced in project.html but was not found.
-2021-10-04 20:32:10,627 : WARNING : iGEM_URL : src\drylab.html#software is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,628 : WARNING : iGEM_URL : /drylab.html#software is referenced in project.html but was not found.
-2021-10-04 20:32:10,629 : WARNING : iGEM_URL : src\drylab.html#model is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,631 : WARNING : iGEM_URL : /drylab.html#model is referenced in project.html but was not found.
-2021-10-04 20:32:10,632 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in project.html.
-2021-10-04 20:32:10,632 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,633 : WARNING : iGEM_URL : human practices.html#integrated is referenced in project.html but was not found.
-2021-10-04 20:32:10,634 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,635 : WARNING : iGEM_URL : human practices.html# is referenced in project.html but was not found.
-2021-10-04 20:32:10,636 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,636 : WARNING : iGEM_URL : human practices.html# is referenced in project.html but was not found.
-2021-10-04 20:32:10,637 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in project.html.
-2021-10-04 20:32:10,638 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,639 : WARNING : iGEM_URL : awards.html#bronze is referenced in project.html but was not found.
-2021-10-04 20:32:10,641 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,641 : WARNING : iGEM_URL : awards.html#silver is referenced in project.html but was not found.
-2021-10-04 20:32:10,645 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,646 : WARNING : iGEM_URL : awards.html#gold is referenced in project.html but was not found.
-2021-10-04 20:32:10,647 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in project.html.
-2021-10-04 20:32:10,654 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,655 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in project.html but was not found.
-2021-10-04 20:32:10,657 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,658 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in project.html but was not found.
-2021-10-04 20:32:10,661 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,661 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,663 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,664 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,665 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,665 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,666 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,667 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,668 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,669 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,670 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,671 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,674 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,675 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,679 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,679 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,680 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,681 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,682 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,683 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,684 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\project.html but was not found.
-2021-10-04 20:32:10,685 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in project.html but was not found.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of project.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of Proof_Of_Concept.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of Results.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of Safety.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of Software.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,694 : INFO : build_and_upload : Contents of Team.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,723 : WARNING : iGEM_URL : src\src\css\navbar.css is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,724 : INFO : iGEM_URL : src/css/navbar.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/navbarCSS?action=raw&ctype=text/css in template_2.html.
-2021-10-04 20:32:10,726 : WARNING : iGEM_URL : src\src\css\template_style2.css is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,727 : INFO : iGEM_URL : src/css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/template_style2CSS?action=raw&ctype=text/css in template_2.html.
-2021-10-04 20:32:10,728 : WARNING : iGEM_URL : src\src\css\page_template.css is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,729 : INFO : iGEM_URL : src/css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/page_templateCSS?action=raw&ctype=text/css in template_2.html.
-2021-10-04 20:32:10,730 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,730 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,732 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in template_2.html.
-2021-10-04 20:32:10,732 : INFO : iGEM_URL : description.html was changed to https://2021.igem.org/Team:UNILausanne/Description in template_2.html.
-2021-10-04 20:32:10,732 : WARNING : iGEM_URL : src\design.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,734 : INFO : iGEM_URL : design.html was changed to https://2021.igem.org/Team:UNILausanne/design in template_2.html.
-2021-10-04 20:32:10,734 : WARNING : iGEM_URL : src\proofofconcept.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,735 : INFO : iGEM_URL : proofofconcept.html was changed to https://2021.igem.org/Team:UNILausanne/proofofconcept in template_2.html.
-2021-10-04 20:32:10,736 : INFO : iGEM_URL : contribution.html was changed to https://2021.igem.org/Team:UNILausanne/Contribution in template_2.html.
-2021-10-04 20:32:10,736 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in template_2.html.
-2021-10-04 20:32:10,737 : INFO : iGEM_URL : results.html was changed to https://2021.igem.org/Team:UNILausanne/Results in template_2.html.
-2021-10-04 20:32:10,737 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in template_2.html.
-2021-10-04 20:32:10,737 : WARNING : iGEM_URL : src\measurements.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,739 : INFO : iGEM_URL : measurements.html was changed to https://2021.igem.org/Team:UNILausanne/measurements in template_2.html.
-2021-10-04 20:32:10,740 : INFO : iGEM_URL : parts.html was changed to https://2021.igem.org/Team:UNILausanne/Parts in template_2.html.
-2021-10-04 20:32:10,741 : INFO : iGEM_URL : notebook.html was changed to https://2021.igem.org/Team:UNILausanne/Notebook in template_2.html.
-2021-10-04 20:32:10,742 : INFO : iGEM_URL : safety.html was changed to https://2021.igem.org/Team:UNILausanne/Safety in template_2.html.
-2021-10-04 20:32:10,743 : INFO : iGEM_URL : hardware.html was changed to https://2021.igem.org/Team:UNILausanne/Hardware in template_2.html.
-2021-10-04 20:32:10,744 : INFO : iGEM_URL : software.html was changed to https://2021.igem.org/Team:UNILausanne/Software in template_2.html.
-2021-10-04 20:32:10,744 : INFO : iGEM_URL : model.html was changed to https://2021.igem.org/Team:UNILausanne/Model in template_2.html.
-2021-10-04 20:32:10,745 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in template_2.html.
-2021-10-04 20:32:10,745 : WARNING : iGEM_URL : src\integratedhumanpractices.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,746 : INFO : iGEM_URL : integratedhumanpractices.html was changed to https://2021.igem.org/Team:UNILausanne/integratedhumanpractices in template_2.html.
-2021-10-04 20:32:10,746 : INFO : iGEM_URL : implementation.html was changed to https://2021.igem.org/Team:UNILausanne/Implementation in template_2.html.
-2021-10-04 20:32:10,747 : WARNING : iGEM_URL : src\communication.htm is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,748 : WARNING : iGEM_URL : communication.htm is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,749 : INFO : iGEM_URL : education.html was changed to https://2021.igem.org/Team:UNILausanne/Education in template_2.html.
-2021-10-04 20:32:10,749 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in template_2.html.
-2021-10-04 20:32:10,749 : WARNING : iGEM_URL : src\attribution.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,750 : INFO : iGEM_URL : attribution.html was changed to https://2021.igem.org/Team:UNILausanne/attribution in template_2.html.
-2021-10-04 20:32:10,751 : WARNING : iGEM_URL : src\collaboration.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,751 : INFO : iGEM_URL : collaboration.html was changed to https://2021.igem.org/Team:UNILausanne/collaboration in template_2.html.
-2021-10-04 20:32:10,752 : INFO : iGEM_URL : partnership.html was changed to https://2021.igem.org/Team:UNILausanne/Partnership in template_2.html.
-2021-10-04 20:32:10,752 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in template_2.html.
-2021-10-04 20:32:10,753 : WARNING : iGEM_URL : src\medals.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,754 : INFO : iGEM_URL : medals.html was changed to https://2021.igem.org/Team:UNILausanne/medals in template_2.html.
-2021-10-04 20:32:10,755 : WARNING : iGEM_URL : src\specialprizes.html is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,755 : INFO : iGEM_URL : specialprizes.html was changed to https://2021.igem.org/Team:UNILausanne/specialprizes in template_2.html.
-2021-10-04 20:32:10,761 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,765 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,766 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,766 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,767 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,768 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,769 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,770 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,772 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,772 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,774 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,776 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,777 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,779 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,780 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,781 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,782 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,782 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,784 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,784 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,785 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,786 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,787 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,787 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,789 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\template_2.html but was not found.
-2021-10-04 20:32:10,790 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in template_2.html but was not found.
-2021-10-04 20:32:10,804 : INFO : build_and_upload : Contents of template_2.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,826 : WARNING : iGEM_URL : src\navbar.css is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,827 : INFO : iGEM_URL : navbar.css was changed to https://2021.igem.org/Template:UNILausanne/navbarCSS?action=raw&ctype=text/css in wetlab.html.
-2021-10-04 20:32:10,828 : WARNING : iGEM_URL : src\template_style2.css is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,828 : INFO : iGEM_URL : template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/template_style2CSS?action=raw&ctype=text/css in wetlab.html.
-2021-10-04 20:32:10,829 : WARNING : iGEM_URL : src\page_template.css is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,829 : INFO : iGEM_URL : page_template.css was changed to https://2021.igem.org/Template:UNILausanne/page_templateCSS?action=raw&ctype=text/css in wetlab.html.
-2021-10-04 20:32:10,830 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,831 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,832 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in wetlab.html.
-2021-10-04 20:32:10,832 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in wetlab.html.
-2021-10-04 20:32:10,832 : WARNING : iGEM_URL : src\project.html#description is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,835 : WARNING : iGEM_URL : project.html#description is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,836 : WARNING : iGEM_URL : src\project.html#design is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,836 : WARNING : iGEM_URL : project.html#design is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,838 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,839 : WARNING : iGEM_URL : project.html#proof is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,840 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in wetlab.html.
-2021-10-04 20:32:10,840 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in wetlab.html.
-2021-10-04 20:32:10,841 : WARNING : iGEM_URL : src\drylab.html#hardware is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,843 : WARNING : iGEM_URL : /drylab.html#hardware is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,844 : WARNING : iGEM_URL : src\drylab.html#software is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,845 : WARNING : iGEM_URL : /drylab.html#software is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,846 : WARNING : iGEM_URL : src\drylab.html#model is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,847 : WARNING : iGEM_URL : /drylab.html#model is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,848 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in wetlab.html.
-2021-10-04 20:32:10,849 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,849 : WARNING : iGEM_URL : human practices.html#integrated is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,850 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,851 : WARNING : iGEM_URL : human practices.html# is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,852 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,852 : WARNING : iGEM_URL : human practices.html# is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,853 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in wetlab.html.
-2021-10-04 20:32:10,853 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,855 : WARNING : iGEM_URL : awards.html#bronze is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,856 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,857 : WARNING : iGEM_URL : awards.html#silver is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,858 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,860 : WARNING : iGEM_URL : awards.html#gold is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,861 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in wetlab.html.
-2021-10-04 20:32:10,869 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,870 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,872 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,872 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,874 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,875 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,877 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,878 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,879 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,880 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,881 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,882 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,883 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,884 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,885 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,885 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,887 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,888 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,919 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,921 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,934 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,935 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,936 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,937 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,939 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\wetlab.html but was not found.
-2021-10-04 20:32:10,939 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in wetlab.html but was not found.
-2021-10-04 20:32:10,961 : INFO : build_and_upload : Contents of wetlab.html have been uploaded previously. Skipping.
-2021-10-04 20:32:10,961 : INFO : build_and_upload : Contents of css\fix_iGEM_wiki.css have been uploaded previously. Skipping.
-2021-10-04 20:32:10,961 : INFO : build_and_upload : Contents of css\igem-reset.css have been uploaded previously. Skipping.
-2021-10-04 20:32:12,172 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Template:UNILausanne/css/navbar1CSS&action=edit.
-2021-10-04 20:32:12,179 : WARNING : iGEM_URL : src\css\images\engineering\DSC01046.jpeg is referenced in src\css\page_template.css but was not found.
-2021-10-04 20:32:12,179 : WARNING : iGEM_URL : images/engineering/DSC01046.jpeg is referenced in css\page_template.css but was not found.
-2021-10-04 20:32:12,180 : WARNING : iGEM_URL : src\css\images\Photo_tiphaines\julien-abri.jpeg is referenced in src\css\page_template.css but was not found.
-2021-10-04 20:32:12,181 : WARNING : iGEM_URL : images/Photo_tiphaines/julien-abri.jpeg is referenced in css\page_template.css but was not found.
-2021-10-04 20:32:12,181 : INFO : build_and_upload : Contents of css\page_template.css have been uploaded previously. Skipping.
-2021-10-04 20:32:12,183 : WARNING : iGEM_URL : src\css\images\engineering\DSC01046.jpeg is referenced in src\css\style copy.css but was not found.
-2021-10-04 20:32:12,183 : WARNING : iGEM_URL : images\engineering\DSC01046.jpeg is referenced in css\style copy.css but was not found.
-2021-10-04 20:32:12,184 : WARNING : iGEM_URL : src\css\images\team\DSCF4930.jpeg is referenced in src\css\style copy.css but was not found.
-2021-10-04 20:32:12,184 : WARNING : iGEM_URL : images/team/DSCF4930.jpeg is referenced in css\style copy.css but was not found.
-2021-10-04 20:32:12,188 : WARNING : iGEM_URL : src\css\images\logo\team_2021\logo_home.png is referenced in src\css\style copy.css but was not found.
-2021-10-04 20:32:12,188 : WARNING : iGEM_URL : images/logo/team_2021/logo_home.png is referenced in css\style copy.css but was not found.
-2021-10-04 20:32:12,189 : WARNING : iGEM_URL : src\css\images\logo\team_2021\final_logo_white_croped.png is referenced in src\css\style copy.css but was not found.
-2021-10-04 20:32:12,189 : WARNING : iGEM_URL : images/logo/team_2021/final_logo_white_croped.png is referenced in css\style copy.css but was not found.
-2021-10-04 20:32:12,191 : INFO : build_and_upload : Contents of css\style copy.css have been uploaded previously. Skipping.
-2021-10-04 20:32:12,194 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.eot is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,195 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.eot is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,196 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.woff2 is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,197 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,198 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.woff is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,199 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,200 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.ttf is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,201 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.ttf is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,202 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.svg is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,203 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.svg is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,206 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.eot is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,207 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.eot is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,209 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.woff2 is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,210 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,215 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.woff is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,215 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,217 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.ttf is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,219 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.ttf is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,221 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.svg is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,225 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.svg is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,229 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.eot is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,229 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.eot is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,230 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.woff2 is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,231 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,232 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.woff is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,233 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,235 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.ttf is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,236 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.ttf is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,238 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.svg is referenced in src\css\template_style2.css but was not found.
-2021-10-04 20:32:12,241 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.svg is referenced in css\template_style2.css but was not found.
-2021-10-04 20:32:12,241 : INFO : build_and_upload : Contents of css\template_style2.css have been uploaded previously. Skipping.
-2021-10-04 20:32:12,242 : INFO : build_and_upload : Contents of css\wetlab.css have been uploaded previously. Skipping.
-2021-10-04 20:32:12,245 : INFO : build_and_upload : Contents of js\main.js have been uploaded previously. Skipping.
+2021-10-05 11:59:48,942 : INFO : iGEM_login : Already logged in.
+2021-10-05 11:59:49,168 : ERROR : cache_files : assets\logo\team_2021\final logo black.ai has an unsupported file extension. Skipping.
+2021-10-05 11:59:50,822 : INFO : build_and_upload : Contents of Attributions.html have been uploaded previously. Skipping.
+2021-10-05 11:59:50,842 : WARNING : iGEM_URL : src\style copy.css is referenced in src\Awards.html but was not found.
+2021-10-05 11:59:50,842 : INFO : iGEM_URL : style copy.css was changed to https://2021.igem.org/Template:UNILausanne/style copyCSS?action=raw&ctype=text/css in Awards.html.
+2021-10-05 11:59:50,846 : WARNING : iGEM_URL : src\src\index.html is referenced in src\Awards.html but was not found.
+2021-10-05 11:59:50,846 : INFO : iGEM_URL : src/index.html was changed to https://2021.igem.org/Team:UNILausanne/src in Awards.html.
+2021-10-05 11:59:50,846 : WARNING : iGEM_URL : src\src\index.html is referenced in src\Awards.html but was not found.
+2021-10-05 11:59:50,846 : INFO : iGEM_URL : src/index.html was changed to https://2021.igem.org/Team:UNILausanne/src in Awards.html.
+2021-10-05 11:59:50,846 : WARNING : iGEM_URL : src\src\project.html is referenced in src\Awards.html but was not found.
+2021-10-05 11:59:50,846 : INFO : iGEM_URL : src/project.html was changed to https://2021.igem.org/Team:UNILausanne/src/project in Awards.html.
+2021-10-05 11:59:50,846 : WARNING : iGEM_URL : src\src\wetlab.html is referenced in src\Awards.html but was not found.
+2021-10-05 11:59:50,846 : INFO : iGEM_URL : src/wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/src/wetlab in Awards.html.
+2021-10-05 11:59:50,846 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in Awards.html.
+2021-10-05 11:59:50,854 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in Awards.html.
+2021-10-05 11:59:50,854 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in Awards.html.
+2021-10-05 11:59:50,854 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:UNILausanne/Attributions in Awards.html.
+2021-10-05 11:59:50,854 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in Awards.html.
+2021-10-05 11:59:50,862 : INFO : build_and_upload : Contents of Awards.html have been uploaded previously. Skipping.
+2021-10-05 11:59:50,862 : INFO : build_and_upload : Contents of Collaborations.html have been uploaded previously. Skipping.
+2021-10-05 11:59:50,862 : INFO : build_and_upload : Contents of Communication.html have been uploaded previously. Skipping.
+2021-10-05 11:59:50,862 : INFO : build_and_upload : Contents of Contribution.html have been uploaded previously. Skipping.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : css/navbar1.css was changed to https://2021.igem.org/Template:UNILausanne/css/navbar1CSS?action=raw&ctype=text/css in Description.html.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:UNILausanne/css/igem-resetCSS?action=raw&ctype=text/css in Description.html.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/css/template_style2CSS?action=raw&ctype=text/css in Description.html.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/css/page_templateCSS?action=raw&ctype=text/css in Description.html.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : assets/logo/team_2021/square_logo.png was changed to https://2021.igem.org/wiki/images/3/35/T--UNILausanne--logo--team_2021--square_logo.png in Description.html.
+2021-10-05 11:59:50,886 : INFO : iGEM_URL : css/style copy.CSS was changed to https://2021.igem.org/Template:UNILausanne/css/style copyCSS?action=raw&ctype=text/css in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : description.html was changed to https://2021.igem.org/Team:UNILausanne/Description in Description.html.
+2021-10-05 11:59:50,894 : WARNING : iGEM_URL : src\design.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : design.html was changed to https://2021.igem.org/Team:UNILausanne/design in Description.html.
+2021-10-05 11:59:50,894 : WARNING : iGEM_URL : src\proofofconcept.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : proofofconcept.html was changed to https://2021.igem.org/Team:UNILausanne/proofofconcept in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : contribution.html was changed to https://2021.igem.org/Team:UNILausanne/Contribution in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : results.html was changed to https://2021.igem.org/Team:UNILausanne/Results in Description.html.
+2021-10-05 11:59:50,894 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in Description.html.
+2021-10-05 11:59:50,902 : WARNING : iGEM_URL : src\measurements.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : measurements.html was changed to https://2021.igem.org/Team:UNILausanne/measurements in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : parts.html was changed to https://2021.igem.org/Team:UNILausanne/Parts in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : notebook.html was changed to https://2021.igem.org/Team:UNILausanne/Notebook in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : safety.html was changed to https://2021.igem.org/Team:UNILausanne/Safety in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : hardware.html was changed to https://2021.igem.org/Team:UNILausanne/Hardware in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : software.html was changed to https://2021.igem.org/Team:UNILausanne/Software in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : model.html was changed to https://2021.igem.org/Team:UNILausanne/Model in Description.html.
+2021-10-05 11:59:50,902 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in Description.html.
+2021-10-05 11:59:50,910 : WARNING : iGEM_URL : src\integratedhumanpractices.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : integratedhumanpractices.html was changed to https://2021.igem.org/Team:UNILausanne/integratedhumanpractices in Description.html.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : implementation.html was changed to https://2021.igem.org/Team:UNILausanne/Implementation in Description.html.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : communication.html was changed to https://2021.igem.org/Team:UNILausanne/Communication in Description.html.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : education.html was changed to https://2021.igem.org/Team:UNILausanne/Education in Description.html.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in Description.html.
+2021-10-05 11:59:50,910 : WARNING : iGEM_URL : src\attribution.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,910 : INFO : iGEM_URL : attribution.html was changed to https://2021.igem.org/Team:UNILausanne/attribution in Description.html.
+2021-10-05 11:59:50,910 : WARNING : iGEM_URL : src\collaboration.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,918 : INFO : iGEM_URL : collaboration.html was changed to https://2021.igem.org/Team:UNILausanne/collaboration in Description.html.
+2021-10-05 11:59:50,918 : INFO : iGEM_URL : partnership.html was changed to https://2021.igem.org/Team:UNILausanne/Partnership in Description.html.
+2021-10-05 11:59:50,918 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in Description.html.
+2021-10-05 11:59:50,918 : WARNING : iGEM_URL : src\medals.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,918 : INFO : iGEM_URL : medals.html was changed to https://2021.igem.org/Team:UNILausanne/medals in Description.html.
+2021-10-05 11:59:50,918 : WARNING : iGEM_URL : src\specialprizes.html is referenced in src\Description.html but was not found.
+2021-10-05 11:59:50,918 : INFO : iGEM_URL : specialprizes.html was changed to https://2021.igem.org/Team:UNILausanne/specialprizes in Description.html.
+2021-10-05 11:59:50,934 : INFO : iGEM_URL : assets\logo\team_2021\menu_white.svg was changed to https://2021.igem.org/wiki/images/c/c7/T--UNILausanne--logo--team_2021--menu_white.svg in Description.html.
+2021-10-05 11:59:50,934 : INFO : iGEM_URL : assets\logo\team_2021\Asset 1.svg was changed to https://2021.igem.org/wiki/images/f/f1/T--UNILausanne--logo--team_2021--Asset_1.svg in Description.html.
+2021-10-05 11:59:50,942 : INFO : iGEM_URL : assets/logo/sponsor/white/unil_logo_white.png was changed to https://2021.igem.org/wiki/images/5/54/T--UNILausanne--logo--sponsor--white--unil_logo_white.png in Description.html.
+2021-10-05 11:59:50,942 : INFO : iGEM_URL : assets/logo/sponsor/white/biolab_logo_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--sponsor--white--biolab_logo_white.png in Description.html.
+2021-10-05 11:59:50,942 : INFO : iGEM_URL : assets/logo/sponsor/white/GenScript-white.png was changed to https://2021.igem.org/wiki/images/2/2c/T--UNILausanne--logo--sponsor--white--GenScript-white.png in Description.html.
+2021-10-05 11:59:50,942 : INFO : iGEM_URL : assets/logo/sponsor/white/IDT_logo_white_rmbg.png was changed to https://2021.igem.org/wiki/images/3/31/T--UNILausanne--logo--sponsor--white--IDT_logo_white_rmbg.png in Description.html.
+2021-10-05 11:59:50,942 : INFO : iGEM_URL : assets/logo/sponsor/white/leenaards-removebg-white.png was changed to https://2021.igem.org/wiki/images/4/4f/T--UNILausanne--logo--sponsor--white--leenaards-removebg-white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/sponsor/white/microsynth_logo_white.png was changed to https://2021.igem.org/wiki/images/2/26/T--UNILausanne--logo--sponsor--white--microsynth_logo_white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/sponsor/white/Promega_logo_white.png was changed to https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--logo--sponsor--white--Promega_logo_white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/social media/instagram_white.png was changed to https://2021.igem.org/wiki/images/6/6c/T--UNILausanne--logo--social_media--instagram_white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/social media/Twitter_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--social_media--Twitter_white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/social media/linkedin_white.png was changed to https://2021.igem.org/wiki/images/5/5d/T--UNILausanne--logo--social_media--linkedin_white.png in Description.html.
+2021-10-05 11:59:50,950 : INFO : iGEM_URL : assets/logo/social media/logo_mail.png was changed to https://2021.igem.org/wiki/images/e/e6/T--UNILausanne--logo--social_media--logo_mail.png in Description.html.
+2021-10-05 11:59:51,962 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILausanne/Description&action=edit.
+2021-10-05 11:59:51,970 : INFO : iGEM_URL : css/navbar1.css was changed to https://2021.igem.org/Template:UNILausanne/css/navbar1CSS?action=raw&ctype=text/css in drylab.html.
+2021-10-05 11:59:51,970 : INFO : iGEM_URL : css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/css/template_style2CSS?action=raw&ctype=text/css in drylab.html.
+2021-10-05 11:59:51,970 : INFO : iGEM_URL : css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/css/page_templateCSS?action=raw&ctype=text/css in drylab.html.
+2021-10-05 11:59:51,970 : WARNING : iGEM_URL : src\css\images\logo\team_2021\square_logo.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:51,970 : WARNING : iGEM_URL : css/images/logo/team_2021/square_logo.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:51,981 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in drylab.html.
+2021-10-05 11:59:51,981 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in drylab.html.
+2021-10-05 11:59:51,981 : WARNING : iGEM_URL : src\project.html#description is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:51,981 : WARNING : iGEM_URL : project.html#description is referenced in drylab.html but was not found.
+2021-10-05 11:59:51,981 : WARNING : iGEM_URL : src\project.html#design is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:51,981 : WARNING : iGEM_URL : project.html#design is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,019 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,019 : WARNING : iGEM_URL : project.html#proof is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,019 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in drylab.html.
+2021-10-05 11:59:52,019 : WARNING : iGEM_URL : src\wetlab.html#succes is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,019 : WARNING : iGEM_URL : wetlab.html#succes is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : src\wetlab.html#results is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : wetlab.html#results is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : src\wetlab.html#measurements is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : wetlab.html#measurements is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : src\wetlab.html#parts is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,027 : WARNING : iGEM_URL : wetlab.html#parts is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : src\wetlab.html#notebook is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : wetlab.html#notebook is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : src\wetlab.html#safety is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : wetlab.html#safety is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,035 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in drylab.html.
+2021-10-05 11:59:52,035 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in drylab.html.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : human practices.html#integrated is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,035 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : human practices.html# is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : human practices.html# is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,043 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in drylab.html.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : awards.html#bronze is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,043 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,051 : WARNING : iGEM_URL : awards.html#silver is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,051 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,051 : WARNING : iGEM_URL : awards.html#gold is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,051 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in drylab.html.
+2021-10-05 11:59:52,059 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,059 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,059 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,059 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,067 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,075 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:52,083 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\drylab.html but was not found.
+2021-10-05 11:59:52,091 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in drylab.html but was not found.
+2021-10-05 11:59:53,001 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILausanne/drylab&action=edit.
+2021-10-05 11:59:53,001 : INFO : build_and_upload : Contents of Education.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,011 : INFO : build_and_upload : Contents of Engineering.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,011 : INFO : build_and_upload : Contents of Experiments.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,011 : INFO : build_and_upload : Contents of Hardware.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,031 : WARNING : iGEM_URL : src\style copy.css is referenced in src\Human_Practices.html but was not found.
+2021-10-05 11:59:53,031 : INFO : iGEM_URL : style copy.css was changed to https://2021.igem.org/Template:UNILausanne/style copyCSS?action=raw&ctype=text/css in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:UNILausanne/Attributions in Human_Practices.html.
+2021-10-05 11:59:53,035 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in Human_Practices.html.
+2021-10-05 11:59:53,044 : INFO : build_and_upload : Contents of Human_Practices.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,044 : INFO : build_and_upload : Contents of Implementation.html have been uploaded previously. Skipping.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : css/navbar1.css was changed to https://2021.igem.org/Template:UNILausanne/css/navbar1CSS?action=raw&ctype=text/css in index.html.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:UNILausanne/css/igem-resetCSS?action=raw&ctype=text/css in index.html.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/css/template_style2CSS?action=raw&ctype=text/css in index.html.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/css/page_templateCSS?action=raw&ctype=text/css in index.html.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : assets/logo/team_2021/square_logo.png was changed to https://2021.igem.org/wiki/images/3/35/T--UNILausanne--logo--team_2021--square_logo.png in index.html.
+2021-10-05 11:59:53,068 : INFO : iGEM_URL : css/style copy.CSS was changed to https://2021.igem.org/Template:UNILausanne/css/style copyCSS?action=raw&ctype=text/css in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : description.html was changed to https://2021.igem.org/Team:UNILausanne/Description in index.html.
+2021-10-05 11:59:53,076 : WARNING : iGEM_URL : src\design.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : design.html was changed to https://2021.igem.org/Team:UNILausanne/design in index.html.
+2021-10-05 11:59:53,076 : WARNING : iGEM_URL : src\proofofconcept.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : proofofconcept.html was changed to https://2021.igem.org/Team:UNILausanne/proofofconcept in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : contribution.html was changed to https://2021.igem.org/Team:UNILausanne/Contribution in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : results.html was changed to https://2021.igem.org/Team:UNILausanne/Results in index.html.
+2021-10-05 11:59:53,076 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in index.html.
+2021-10-05 11:59:53,084 : WARNING : iGEM_URL : src\measurements.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : measurements.html was changed to https://2021.igem.org/Team:UNILausanne/measurements in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : parts.html was changed to https://2021.igem.org/Team:UNILausanne/Parts in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : notebook.html was changed to https://2021.igem.org/Team:UNILausanne/Notebook in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : safety.html was changed to https://2021.igem.org/Team:UNILausanne/Safety in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : hardware.html was changed to https://2021.igem.org/Team:UNILausanne/Hardware in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : software.html was changed to https://2021.igem.org/Team:UNILausanne/Software in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : model.html was changed to https://2021.igem.org/Team:UNILausanne/Model in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in index.html.
+2021-10-05 11:59:53,084 : WARNING : iGEM_URL : src\integratedhumanpractices.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : integratedhumanpractices.html was changed to https://2021.igem.org/Team:UNILausanne/integratedhumanpractices in index.html.
+2021-10-05 11:59:53,084 : INFO : iGEM_URL : implementation.html was changed to https://2021.igem.org/Team:UNILausanne/Implementation in index.html.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : communication.html was changed to https://2021.igem.org/Team:UNILausanne/Communication in index.html.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : education.html was changed to https://2021.igem.org/Team:UNILausanne/Education in index.html.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in index.html.
+2021-10-05 11:59:53,092 : WARNING : iGEM_URL : src\attribution.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : attribution.html was changed to https://2021.igem.org/Team:UNILausanne/attribution in index.html.
+2021-10-05 11:59:53,092 : WARNING : iGEM_URL : src\collaboration.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : collaboration.html was changed to https://2021.igem.org/Team:UNILausanne/collaboration in index.html.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : partnership.html was changed to https://2021.igem.org/Team:UNILausanne/Partnership in index.html.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in index.html.
+2021-10-05 11:59:53,092 : WARNING : iGEM_URL : src\medals.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : medals.html was changed to https://2021.igem.org/Team:UNILausanne/medals in index.html.
+2021-10-05 11:59:53,092 : WARNING : iGEM_URL : src\specialprizes.html is referenced in src\index.html but was not found.
+2021-10-05 11:59:53,092 : INFO : iGEM_URL : specialprizes.html was changed to https://2021.igem.org/Team:UNILausanne/specialprizes in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets\logo\team_2021\menu_white.svg was changed to https://2021.igem.org/wiki/images/c/c7/T--UNILausanne--logo--team_2021--menu_white.svg in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets\logo\team_2021\Asset 1.svg was changed to https://2021.igem.org/wiki/images/f/f1/T--UNILausanne--logo--team_2021--Asset_1.svg in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/logo_home.png was changed to https://2021.igem.org/wiki/images/c/c4/T--UNILausanne--logo--team_2021--logo_home.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/blender/silouette arbre.png was changed to https://2021.igem.org/wiki/images/b/b2/T--UNILausanne--blender--silouette_arbre.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/blender/logo_monnaie_grey.png was changed to https://2021.igem.org/wiki/images/d/d4/T--UNILausanne--blender--logo_monnaie_grey.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_yellow.png was changed to https://2021.igem.org/wiki/images/c/c0/T--UNILausanne--logo--team_2021--square_logo_yellow.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_orange.png was changed to https://2021.igem.org/wiki/images/2/2a/T--UNILausanne--logo--team_2021--square_logo_orange.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/square_logo_red.png was changed to https://2021.igem.org/wiki/images/0/02/T--UNILausanne--logo--team_2021--square_logo_red.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_yellow_phage.png was changed to https://2021.igem.org/wiki/images/8/8b/T--UNILausanne--logo--team_2021--test_logo--square_logo_yellow_phage.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_orange_tailocins.png was changed to https://2021.igem.org/wiki/images/9/96/T--UNILausanne--logo--team_2021--test_logo--square_logo_orange_tailocins.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/team_2021/test logo/square_logo_red_AFP.png was changed to https://2021.igem.org/wiki/images/f/f7/T--UNILausanne--logo--team_2021--test_logo--square_logo_red_AFP.png in index.html.
+2021-10-05 11:59:53,108 : INFO : iGEM_URL : assets/logo/sponsor/white/unil_logo_white.png was changed to https://2021.igem.org/wiki/images/5/54/T--UNILausanne--logo--sponsor--white--unil_logo_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/biolab_logo_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--sponsor--white--biolab_logo_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/GenScript-white.png was changed to https://2021.igem.org/wiki/images/2/2c/T--UNILausanne--logo--sponsor--white--GenScript-white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/IDT_logo_white_rmbg.png was changed to https://2021.igem.org/wiki/images/3/31/T--UNILausanne--logo--sponsor--white--IDT_logo_white_rmbg.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/leenaards-removebg-white.png was changed to https://2021.igem.org/wiki/images/4/4f/T--UNILausanne--logo--sponsor--white--leenaards-removebg-white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/microsynth_logo_white.png was changed to https://2021.igem.org/wiki/images/2/26/T--UNILausanne--logo--sponsor--white--microsynth_logo_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/sponsor/white/Promega_logo_white.png was changed to https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--logo--sponsor--white--Promega_logo_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/social media/instagram_white.png was changed to https://2021.igem.org/wiki/images/6/6c/T--UNILausanne--logo--social_media--instagram_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/social media/Twitter_white.png was changed to https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--social_media--Twitter_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/social media/linkedin_white.png was changed to https://2021.igem.org/wiki/images/5/5d/T--UNILausanne--logo--social_media--linkedin_white.png in index.html.
+2021-10-05 11:59:53,116 : INFO : iGEM_URL : assets/logo/social media/logo_mail.png was changed to https://2021.igem.org/wiki/images/e/e6/T--UNILausanne--logo--social_media--logo_mail.png in index.html.
+2021-10-05 11:59:53,131 : INFO : iGEM_URL : assets/video/dreamstime_lower.mp4 was changed to https://2021.igem.org/wiki/images/b/b8/T--UNILausanne--video--dreamstime_lower.mp4 in index.html.
+2021-10-05 11:59:54,181 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILausanne&action=edit.
+2021-10-05 11:59:54,181 : INFO : build_and_upload : Contents of Measurement.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,181 : INFO : build_and_upload : Contents of Model.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,181 : INFO : build_and_upload : Contents of Notebook.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,181 : INFO : build_and_upload : Contents of Partnership.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,181 : INFO : build_and_upload : Contents of Parts.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,248 : WARNING : iGEM_URL : src\navbar.css is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,248 : INFO : iGEM_URL : navbar.css was changed to https://2021.igem.org/Template:UNILausanne/navbarCSS?action=raw&ctype=text/css in project.html.
+2021-10-05 11:59:54,253 : WARNING : iGEM_URL : src\template_style2.css is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,253 : INFO : iGEM_URL : template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/template_style2CSS?action=raw&ctype=text/css in project.html.
+2021-10-05 11:59:54,255 : WARNING : iGEM_URL : src\page_template.css is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,255 : INFO : iGEM_URL : page_template.css was changed to https://2021.igem.org/Template:UNILausanne/page_templateCSS?action=raw&ctype=text/css in project.html.
+2021-10-05 11:59:54,255 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,255 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,255 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in project.html.
+2021-10-05 11:59:54,255 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in project.html.
+2021-10-05 11:59:54,255 : WARNING : iGEM_URL : src\project.html#description is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,255 : WARNING : iGEM_URL : project.html#description is referenced in project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : src\project.html#design is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : project.html#design is referenced in project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : project.html#proof is referenced in project.html but was not found.
+2021-10-05 11:59:54,263 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in project.html.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : src\wetlab.html#success is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : wetlab.html#success is referenced in project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : src\wetlab.html#results is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,263 : WARNING : iGEM_URL : wetlab.html#results is referenced in project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : src\wetlab.html#measurements is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : wetlab.html#measurements is referenced in project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : src\wetlab.html#parts is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : wetlab.html#parts is referenced in project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : src\wetlab.html#notebook is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : wetlab.html#notebook is referenced in project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : src\wetlab.html#safety is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,271 : WARNING : iGEM_URL : wetlab.html#safety is referenced in project.html but was not found.
+2021-10-05 11:59:54,279 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in project.html.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : src\drylab.html#hardware is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : /drylab.html#hardware is referenced in project.html but was not found.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : src\drylab.html#software is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : /drylab.html#software is referenced in project.html but was not found.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : src\drylab.html#model is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,279 : WARNING : iGEM_URL : /drylab.html#model is referenced in project.html but was not found.
+2021-10-05 11:59:54,287 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in project.html.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : human practices.html#integrated is referenced in project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : human practices.html# is referenced in project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : human practices.html# is referenced in project.html but was not found.
+2021-10-05 11:59:54,287 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in project.html.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,287 : WARNING : iGEM_URL : awards.html#bronze is referenced in project.html but was not found.
+2021-10-05 11:59:54,295 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,295 : WARNING : iGEM_URL : awards.html#silver is referenced in project.html but was not found.
+2021-10-05 11:59:54,295 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,295 : WARNING : iGEM_URL : awards.html#gold is referenced in project.html but was not found.
+2021-10-05 11:59:54,295 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in project.html.
+2021-10-05 11:59:54,303 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,303 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in project.html but was not found.
+2021-10-05 11:59:54,303 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,303 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,311 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,319 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,327 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,335 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\project.html but was not found.
+2021-10-05 11:59:54,335 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in project.html but was not found.
+2021-10-05 11:59:54,343 : INFO : build_and_upload : Contents of project.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,343 : INFO : build_and_upload : Contents of Proof_Of_Concept.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,343 : INFO : build_and_upload : Contents of Results.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,351 : INFO : build_and_upload : Contents of Safety.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,351 : INFO : build_and_upload : Contents of Software.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,351 : INFO : build_and_upload : Contents of Team.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,375 : WARNING : iGEM_URL : src\src\css\navbar.css is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,375 : INFO : iGEM_URL : src/css/navbar.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/navbarCSS?action=raw&ctype=text/css in template_2.html.
+2021-10-05 11:59:54,375 : WARNING : iGEM_URL : src\src\css\template_style2.css is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,375 : INFO : iGEM_URL : src/css/template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/template_style2CSS?action=raw&ctype=text/css in template_2.html.
+2021-10-05 11:59:54,375 : WARNING : iGEM_URL : src\src\css\page_template.css is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,375 : INFO : iGEM_URL : src/css/page_template.css was changed to https://2021.igem.org/Template:UNILausanne/src/css/page_templateCSS?action=raw&ctype=text/css in template_2.html.
+2021-10-05 11:59:54,375 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,375 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in template_2.html.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : description.html was changed to https://2021.igem.org/Team:UNILausanne/Description in template_2.html.
+2021-10-05 11:59:54,383 : WARNING : iGEM_URL : src\design.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : design.html was changed to https://2021.igem.org/Team:UNILausanne/design in template_2.html.
+2021-10-05 11:59:54,383 : WARNING : iGEM_URL : src\proofofconcept.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : proofofconcept.html was changed to https://2021.igem.org/Team:UNILausanne/proofofconcept in template_2.html.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : contribution.html was changed to https://2021.igem.org/Team:UNILausanne/Contribution in template_2.html.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in template_2.html.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : results.html was changed to https://2021.igem.org/Team:UNILausanne/Results in template_2.html.
+2021-10-05 11:59:54,383 : INFO : iGEM_URL : engineering.html was changed to https://2021.igem.org/Team:UNILausanne/Engineering in template_2.html.
+2021-10-05 11:59:54,383 : WARNING : iGEM_URL : src\measurements.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : measurements.html was changed to https://2021.igem.org/Team:UNILausanne/measurements in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : parts.html was changed to https://2021.igem.org/Team:UNILausanne/Parts in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : notebook.html was changed to https://2021.igem.org/Team:UNILausanne/Notebook in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : safety.html was changed to https://2021.igem.org/Team:UNILausanne/Safety in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : hardware.html was changed to https://2021.igem.org/Team:UNILausanne/Hardware in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : software.html was changed to https://2021.igem.org/Team:UNILausanne/Software in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : model.html was changed to https://2021.igem.org/Team:UNILausanne/Model in template_2.html.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in template_2.html.
+2021-10-05 11:59:54,391 : WARNING : iGEM_URL : src\integratedhumanpractices.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,391 : INFO : iGEM_URL : integratedhumanpractices.html was changed to https://2021.igem.org/Team:UNILausanne/integratedhumanpractices in template_2.html.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : implementation.html was changed to https://2021.igem.org/Team:UNILausanne/Implementation in template_2.html.
+2021-10-05 11:59:54,399 : WARNING : iGEM_URL : src\communication.htm is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,399 : WARNING : iGEM_URL : communication.htm is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : education.html was changed to https://2021.igem.org/Team:UNILausanne/Education in template_2.html.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in template_2.html.
+2021-10-05 11:59:54,399 : WARNING : iGEM_URL : src\attribution.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : attribution.html was changed to https://2021.igem.org/Team:UNILausanne/attribution in template_2.html.
+2021-10-05 11:59:54,399 : WARNING : iGEM_URL : src\collaboration.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : collaboration.html was changed to https://2021.igem.org/Team:UNILausanne/collaboration in template_2.html.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : partnership.html was changed to https://2021.igem.org/Team:UNILausanne/Partnership in template_2.html.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in template_2.html.
+2021-10-05 11:59:54,399 : WARNING : iGEM_URL : src\medals.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,399 : INFO : iGEM_URL : medals.html was changed to https://2021.igem.org/Team:UNILausanne/medals in template_2.html.
+2021-10-05 11:59:54,407 : WARNING : iGEM_URL : src\specialprizes.html is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,407 : INFO : iGEM_URL : specialprizes.html was changed to https://2021.igem.org/Team:UNILausanne/specialprizes in template_2.html.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,415 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,423 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,431 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\template_2.html but was not found.
+2021-10-05 11:59:54,439 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in template_2.html but was not found.
+2021-10-05 11:59:54,455 : INFO : build_and_upload : Contents of template_2.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,487 : WARNING : iGEM_URL : src\navbar.css is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,487 : INFO : iGEM_URL : navbar.css was changed to https://2021.igem.org/Template:UNILausanne/navbarCSS?action=raw&ctype=text/css in wetlab.html.
+2021-10-05 11:59:54,487 : WARNING : iGEM_URL : src\template_style2.css is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,487 : INFO : iGEM_URL : template_style2.css was changed to https://2021.igem.org/Template:UNILausanne/template_style2CSS?action=raw&ctype=text/css in wetlab.html.
+2021-10-05 11:59:54,487 : WARNING : iGEM_URL : src\page_template.css is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,487 : INFO : iGEM_URL : page_template.css was changed to https://2021.igem.org/Template:UNILausanne/page_templateCSS?action=raw&ctype=text/css in wetlab.html.
+2021-10-05 11:59:54,487 : WARNING : iGEM_URL : src\images\logo\team_2021\square_logo.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,487 : WARNING : iGEM_URL : images/logo/team_2021/square_logo.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,487 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:UNILausanne in wetlab.html.
+2021-10-05 11:59:54,495 : INFO : iGEM_URL : project.html was changed to https://2021.igem.org/Team:UNILausanne/project in wetlab.html.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : src\project.html#description is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : project.html#description is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : src\project.html#design is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : project.html#design is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : src\project.html#proof is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,495 : WARNING : iGEM_URL : project.html#proof is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,495 : INFO : iGEM_URL : wetlab.html was changed to https://2021.igem.org/Team:UNILausanne/wetlab in wetlab.html.
+2021-10-05 11:59:54,503 : INFO : iGEM_URL : drylab.html was changed to https://2021.igem.org/Team:UNILausanne/drylab in wetlab.html.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : src\drylab.html#hardware is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : /drylab.html#hardware is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : src\drylab.html#software is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : /drylab.html#software is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : src\drylab.html#model is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : /drylab.html#model is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,503 : INFO : iGEM_URL : human practices.html was changed to https://2021.igem.org/Team:UNILausanne/human practices in wetlab.html.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : src\human practices.html#integrated is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,503 : WARNING : iGEM_URL : human practices.html#integrated is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : human practices.html# is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : src\human practices.html# is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : human practices.html# is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,511 : INFO : iGEM_URL : awards.html was changed to https://2021.igem.org/Team:UNILausanne/Awards in wetlab.html.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : src\awards.html#bronze is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,511 : WARNING : iGEM_URL : awards.html#bronze is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,519 : WARNING : iGEM_URL : src\awards.html#silver is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,519 : WARNING : iGEM_URL : awards.html#silver is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,519 : WARNING : iGEM_URL : src\awards.html#gold is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,519 : WARNING : iGEM_URL : awards.html#gold is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,519 : INFO : iGEM_URL : team.html was changed to https://2021.igem.org/Team:UNILausanne/Team in wetlab.html.
+2021-10-05 11:59:54,527 : WARNING : iGEM_URL : src\images\logo\team_2021\menu_white.svg is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,527 : WARNING : iGEM_URL : images\logo\team_2021\menu_white.svg is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,527 : WARNING : iGEM_URL : src\images\logo\team_2021\Asset 1.svg is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,527 : WARNING : iGEM_URL : images\logo\team_2021\Asset 1.svg is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : src\images\logo\sponsor\white\unil_logo_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : images/logo/sponsor/white/unil_logo_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : src\images\logo\sponsor\white\biolab_logo_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : images/logo/sponsor/white/biolab_logo_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : src\images\logo\sponsor\white\GenScript-white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : images/logo/sponsor/white/GenScript-white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : src\images\logo\sponsor\white\IDT_logo_white_rmbg.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,535 : WARNING : iGEM_URL : images/logo/sponsor/white/IDT_logo_white_rmbg.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,543 : WARNING : iGEM_URL : src\images\logo\sponsor\white\leenaards-removebg-white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,543 : WARNING : iGEM_URL : images/logo/sponsor/white/leenaards-removebg-white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,543 : WARNING : iGEM_URL : src\images\logo\sponsor\white\microsynth_logo_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,543 : WARNING : iGEM_URL : images/logo/sponsor/white/microsynth_logo_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : src\images\logo\sponsor\white\Promega_logo_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : images/logo/sponsor/white/Promega_logo_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : src\images\logo\social media\instagram_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : images/logo/social media/instagram_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : src\images\logo\social media\Twitter_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : images/logo/social media/Twitter_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : src\images\logo\social media\linkedin_white.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,551 : WARNING : iGEM_URL : images/logo/social media/linkedin_white.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,559 : WARNING : iGEM_URL : src\images\logo\social media\logo_mail.png is referenced in src\wetlab.html but was not found.
+2021-10-05 11:59:54,559 : WARNING : iGEM_URL : images/logo/social media/logo_mail.png is referenced in wetlab.html but was not found.
+2021-10-05 11:59:54,575 : INFO : build_and_upload : Contents of wetlab.html have been uploaded previously. Skipping.
+2021-10-05 11:59:54,583 : INFO : build_and_upload : Contents of css\fix_iGEM_wiki.css have been uploaded previously. Skipping.
+2021-10-05 11:59:54,583 : INFO : build_and_upload : Contents of css\igem-reset.css have been uploaded previously. Skipping.
+2021-10-05 11:59:54,583 : WARNING : iGEM_URL : src\css\assets\logo\sponsor\colored\uniltransparent.png is referenced in src\css\navbar1.css but was not found.
+2021-10-05 11:59:54,583 : WARNING : iGEM_URL : assets\logo\sponsor\colored\uniltransparent.png is referenced in css\navbar1.css but was not found.
+2021-10-05 11:59:55,684 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Template:UNILausanne/css/navbar1CSS&action=edit.
+2021-10-05 11:59:55,684 : WARNING : iGEM_URL : src\css\assets\engineering\DSC01046.jpeg is referenced in src\css\page_template.css but was not found.
+2021-10-05 11:59:55,684 : WARNING : iGEM_URL : assets/engineering/DSC01046.jpeg is referenced in css\page_template.css but was not found.
+2021-10-05 11:59:55,684 : WARNING : iGEM_URL : src\css\assets\engineering\DSC01046.png is referenced in src\css\page_template.css but was not found.
+2021-10-05 11:59:55,691 : WARNING : iGEM_URL : assets/engineering/DSC01046.png is referenced in css\page_template.css but was not found.
+2021-10-05 11:59:55,694 : WARNING : iGEM_URL : src\css\assets\Photo_tiphaines\julien-abri.jpeg is referenced in src\css\page_template.css but was not found.
+2021-10-05 11:59:55,694 : WARNING : iGEM_URL : assets/Photo_tiphaines/julien-abri.jpeg is referenced in css\page_template.css but was not found.
+2021-10-05 11:59:56,555 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Template:UNILausanne/css/page_templateCSS&action=edit.
+2021-10-05 11:59:56,555 : WARNING : iGEM_URL : src\css\images\engineering\DSC01046.jpeg is referenced in src\css\style copy.css but was not found.
+2021-10-05 11:59:56,555 : WARNING : iGEM_URL : images\engineering\DSC01046.jpeg is referenced in css\style copy.css but was not found.
+2021-10-05 11:59:56,566 : WARNING : iGEM_URL : src\css\images\team\DSCF4930.jpeg is referenced in src\css\style copy.css but was not found.
+2021-10-05 11:59:56,566 : WARNING : iGEM_URL : images/team/DSCF4930.jpeg is referenced in css\style copy.css but was not found.
+2021-10-05 11:59:56,566 : WARNING : iGEM_URL : src\css\images\logo\team_2021\logo_home.png is referenced in src\css\style copy.css but was not found.
+2021-10-05 11:59:56,566 : WARNING : iGEM_URL : images/logo/team_2021/logo_home.png is referenced in css\style copy.css but was not found.
+2021-10-05 11:59:56,574 : WARNING : iGEM_URL : src\css\images\logo\team_2021\final_logo_white_croped.png is referenced in src\css\style copy.css but was not found.
+2021-10-05 11:59:56,574 : WARNING : iGEM_URL : images/logo/team_2021/final_logo_white_croped.png is referenced in css\style copy.css but was not found.
+2021-10-05 11:59:57,509 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Template:UNILausanne/css/style copyCSS&action=edit.
+2021-10-05 11:59:57,509 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.eot is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,519 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.eot is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,525 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.woff2 is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,525 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,525 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.woff is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,533 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,533 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.ttf is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,533 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.ttf is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,542 : WARNING : iGEM_URL : src\webfonts\fa-brands-400.svg is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,542 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.svg is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,542 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.eot is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,542 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.eot is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.woff2 is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.woff is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.ttf is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,548 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.ttf is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,556 : WARNING : iGEM_URL : src\webfonts\fa-regular-400.svg is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,580 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.svg is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.eot is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.eot is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.woff2 is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.woff is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,588 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.ttf is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,596 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.ttf is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,596 : WARNING : iGEM_URL : src\webfonts\fa-solid-900.svg is referenced in src\css\template_style2.css but was not found.
+2021-10-05 11:59:57,596 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.svg is referenced in css\template_style2.css but was not found.
+2021-10-05 11:59:57,596 : INFO : build_and_upload : Contents of css\template_style2.css have been uploaded previously. Skipping.
+2021-10-05 11:59:57,604 : INFO : build_and_upload : Contents of css\wetlab.css have been uploaded previously. Skipping.
+2021-10-05 11:59:57,676 : INFO : build_and_upload : Contents of js\main.js have been uploaded previously. Skipping.

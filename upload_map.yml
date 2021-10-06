@@ -291,13 +291,13 @@ css:
     md5: 11566b6b8864360d1b92f1ac047bb2f6
   css\navbar1.css:
     link_URL: https://2021.igem.org/Template:UNILausanne/css/navbar1CSS?action=raw&ctype=text/css
-    md5: fbb0fb19f672485fda41c6903e45f052
+    md5: 7251295ab9f2d63af558fee1b56276e3
   css\page_template.css:
     link_URL: https://2021.igem.org/Template:UNILausanne/css/page_templateCSS?action=raw&ctype=text/css
-    md5: e78b667b83a549b0900b0c8a553b5fbe
+    md5: 75f0922f7478a6c4760a389dab28562f
   css\style copy.css:
     link_URL: https://2021.igem.org/Template:UNILausanne/css/style copyCSS?action=raw&ctype=text/css
-    md5: fb676a2e188d22e06369bdf1a286a18b
+    md5: 6182cfa0edc488c3264b6775f56e8879
   css\template_style2.css:
     link_URL: https://2021.igem.org/Template:UNILausanne/css/template_style2CSS?action=raw&ctype=text/css
     md5: aaedf08d2b897f7cee43ae772a64f226
@@ -322,7 +322,7 @@ html:
     md5: 086707e4369f60afedcafb16050a7618
   Description.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Description
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: bc300ca8db15df8a28cf0cf88eaf07f7
   Education.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Education
     md5: 086707e4369f60afedcafb16050a7618
@@ -376,13 +376,13 @@ html:
     md5: ''
   drylab.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/drylab
-    md5: 54bacecd393ad953c4eca0b814370885
+    md5: d365bc7aa800f26226ed6bcee5bfe4de
   human practices.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/human practices
     md5: ''
   index.html:
     link_URL: https://2021.igem.org/Team:UNILausanne
-    md5: b7c65e1db59a59e29e573951e4223828
+    md5: 5784a3723fd2fe1f9f742e3d85aae842
   project.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/project
     md5: c438c62b0408cbac1d31136ed9b058bc

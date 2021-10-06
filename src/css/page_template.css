@@ -1,5 +1,5 @@
 body{
-    min-width: fit-content;
+    min-width: fit-content !important; 
 }
 
 
@@ -23,7 +23,7 @@ body{
     width: 100%;
     min-width: 400px;
     /* The image used */
-    background-image: url("assets/engineering/DSC01046.png");
+    background-image: url(assets/engineering/DSC01046.png);
     background-color: #cec0ec;
     /* Full height */
     height: 100%;
@@ -121,10 +121,15 @@ body{
     display: inline-block;
     
 }
+.description-text h2 {
+    font-size: calc(8px + 1vw);
+    
+    font-family: 'Noto Sans Display', sans-serif;
+}
 
 .description-text p {
     font-size:calc(15px + 0.2vw);
-    
+    font-family: 'Noto Sans Display', sans-serif;
     padding-top: 80px;
     margin-top: -40px;
     display: inline-block;

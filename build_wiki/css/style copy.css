@@ -87,8 +87,8 @@
  }
  
  body {
-     background: #171c24;
-     color: white;
+     background: #ffff;
+     color: black;
      font-family: Arial, Helvetica, sans-serif;
      margin: 0;
      padding: 0;
@@ -503,7 +503,7 @@ li {
  /* ================= 
    Responsive Rules
    ================= */
- /* FOUTEUR DE MERDE */
+ /* FOUTEUR DE MERDE 
  
  footer {
      background-color: #011C40;
@@ -589,7 +589,3 @@ li {
  }
  /*BootStrap customize*/
  /*dropdown item custom*/
- 
- #di {
-     color: black;
- }

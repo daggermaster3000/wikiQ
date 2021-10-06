@@ -1,6 +1,5 @@
-body,
-html {
-    height: 100%;
+body{
+    min-width: fit-content;
 }
 
 
@@ -10,7 +9,22 @@ html {
     width: 100%;
     min-width: 400px;
     /* The image used */
-    background-image: url("images/engineering/DSC01046.jpeg");
+    background-image: url("assets/engineering/DSC01046.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-description {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url(assets/engineering/DSC01046.png);
+    background-color: #cec0ec;
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -24,7 +38,7 @@ html {
     width: 100%;
     min-width: 400px;
     /* The image used */
-    background-image: url("images/Photo_tiphaines/julien-abri.jpeg");
+    background-image: url("assets/Photo_tiphaines/julien-abri.jpeg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -41,11 +55,19 @@ html {
     .top_display {
         background-attachment: scroll;
     }
+    .elegant-shadow {
+        color: #2c2c2c;
+        background-color: rgba(255, 255, 255, 0);
+        letter-spacing: .05em;
+        text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    
 }
 
 .top_display img {
     width: 100%;
-    min-width: 400px;
+    min-width: 100vh;
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
@@ -59,13 +81,14 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
 }
 
 
 /*title of page over image */
 
 .title-shadow {
-    font-size: 15vw;
+    font-size: calc(10px + 7vw);
     text-rendering: optimizeLegibility;
     color: #e0dfdc;
     letter-spacing: .1em;
@@ -85,20 +108,30 @@ html {
 .description-text {
     min-width: 400px;
     min-height: 50vh;
+    padding: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    
 }
 
 .description-text h1 {
-    font-size: 4vw;
+    font-size: calc(10px + 3vw);
     padding-top: 100px;
     margin-top: -40px;
     display: inline-block;
-    /* required for webkit browsers */
+    
+}
+.description-text h2 {
+    font-size: calc(8px + 1vw);
+    
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 .description-text p {
-    font-size: 1.6vw;
+    font-size:calc(15px + 0.2vw);
+    font-family: 'Noto Sans Display', sans-serif;
     padding-top: 80px;
     margin-top: -40px;
     display: inline-block;
-    /* required for webkit browsers */
+    
 }
