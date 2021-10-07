@@ -25,7 +25,6 @@
      object-fit: cover;
      width: 100vw;
      height: 100vh;
-     position: fixed;
      top: 0;
      left: 0;
      -webkit-animation: fadein 2s;
@@ -33,9 +32,13 @@
      -ms-animation: fadein 2s;
      -o-animation: fadein 2s;
      animation: fadein 10s;
-     background-repeat: no-repeat;
      z-index: -1000;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
+ 
  
  @keyframes fadein {
      from {
@@ -148,7 +151,8 @@
     margin-top:20px;
     max-width:100%;
     height:auto;
-    width:auto\9
+    width:auto\9;
+    position: absolute;
  }
  /* #ice_Home{
     position: relative;
@@ -168,7 +172,7 @@
      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
      backdrop-filter: blur(25px);
      border-radius: 15px;
-     background-color: #f0c58c4b;
+     background-color: #5a535c4b;
      padding: 10px;
      top: 100%;
      padding: 70px;
