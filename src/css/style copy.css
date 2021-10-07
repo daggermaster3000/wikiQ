@@ -98,7 +98,7 @@
      /* Safari */
  }
  /* body.engineering {
-    background-image: url("images\engineering\DSC01046.jpeg");
+    background-image: url("assets\engineering\DSC01046.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -130,7 +130,7 @@
  /*headers*/
  
  header.team {
-     background-image: url("images/team/DSCF4930.jpeg");
+     background-image: url("assets/team/DSCF4930.jpeg");
      background-size: 120%;
      background-repeat: no-repeat;
      background-position-y: 25%;
@@ -298,7 +298,7 @@
     margin: 15px;
     padding: 0px;
     font-size: 0px;
-    background-image: url("images/logo/team_2021/final_logo_white_croped.png");
+    background-image: url("assets/logo/team_2021/final_logo_white_croped.png");
     background-size: 35%;
     background-repeat: no-repeat;
     width: 30%;
