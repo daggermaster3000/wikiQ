@@ -146,6 +146,7 @@
  
  .logo_Home_img {
     margin-top:20px;
+    width: 100%;
     max-width:100%;
     height:auto;
     width:auto\9
@@ -163,18 +164,18 @@
  
  .project_introduction {
      position: relative;
-     width: 70%;
-     max-height: 800px;
+     width: 50%;
+     /* max-height: 1200px; */
      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
      backdrop-filter: blur(25px);
      border-radius: 15px;
      background-color: #f0c58c4b;
      padding: 10px;
-     top: 100%;
+     /* top: 100%; */
      padding: 70px;
      margin: auto;
-     margin-top: 200vw;
-     margin-bottom: 500vw;
+     margin-top: 400px;
+     margin-bottom: 500px;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(3, 1fr);
@@ -184,7 +185,7 @@
  
  .project_indepth {
      position: relative;
-     width: 70%;
+     width: 50%;
      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
      border-radius: 15px;
      background-color: #f0c58c4b;
