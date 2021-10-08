@@ -87,8 +87,8 @@
  }
  
  body {
-     background: #171c24;
-     color: white;
+     background: #ffff;
+     color: black;
      font-family: Arial, Helvetica, sans-serif;
      margin: 0;
      padding: 0;
@@ -98,7 +98,7 @@
      /* Safari */
  }
  /* body.engineering {
-    background-image: url("images\engineering\DSC01046.jpeg");
+    background-image: url("assets\engineering\DSC01046.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -130,7 +130,7 @@
  /*headers*/
  
  header.team {
-     background-image: url("images/team/DSCF4930.jpeg");
+     background-image: url("assets/team/DSCF4930.jpeg");
      background-size: 120%;
      background-repeat: no-repeat;
      background-position-y: 25%;
@@ -139,22 +139,16 @@
  }
  /* Sections */
  
- .logo_Home {
-     /*background-image: url(images/logo/team_2021/logo_home.png);*/
-     position: static;
-     top: 100px;
-     background-size: 100%;
-     background-repeat: no-repeat;
-     z-index: 10000;
-     display: flex;
-     justify-content: center;
+ .introduction{
+    display: flex;
+    flex-direction: column;
  }
  
  .logo_Home_img {
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     size: 20%;
+    margin-top:20px;
+    max-width:100%;
+    height:auto;
+    width:auto\9
  }
  /* #ice_Home{
     position: relative;
@@ -176,11 +170,11 @@
      border-radius: 15px;
      background-color: #f0c58c4b;
      padding: 10px;
-     top: 15%;
+     top: 100%;
      padding: 70px;
      margin: auto;
-     margin-top: 200px;
-     margin-bottom: 500px;
+     margin-top: 200vw;
+     margin-bottom: 500vw;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(3, 1fr);
@@ -208,7 +202,7 @@
      width: 60%;
  }
  
- .project_introduction p {
+ .project_introduction p{
      text-align: center;
      text-justify: inter-word;
  }
@@ -304,7 +298,7 @@
     margin: 15px;
     padding: 0px;
     font-size: 0px;
-    background-image: url("images/logo/team_2021/final_logo_white_croped.png");
+    background-image: url("assets/logo/team_2021/final_logo_white_croped.png");
     background-size: 35%;
     background-repeat: no-repeat;
     width: 30%;
@@ -503,7 +497,7 @@ li {
  /* ================= 
    Responsive Rules
    ================= */
- /* FOUTEUR DE MERDE */
+ /* FOUTEUR DE MERDE 
  
  footer {
      background-color: #011C40;
@@ -589,7 +583,3 @@ li {
  }
  /*BootStrap customize*/
  /*dropdown item custom*/
- 
- #di {
-     color: black;
- }

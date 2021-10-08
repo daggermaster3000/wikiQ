@@ -395,5 +395,8 @@ footer div {
     grid-column: 2;
 }
 
-
+.sponsors .unil-logo a:hover {
+    background-image:url("assets\logo\sponsor\colored\uniltransparent.png");
+    z-index: 10000000;
+}
 
