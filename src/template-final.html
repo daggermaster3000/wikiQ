@@ -16,8 +16,8 @@
 		<link rel="stylesheet" href="css/template_style2.css">
 		<link rel="stylesheet" href="css/page_template.css">
 		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
-		<link href="css/track-style.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="css/navbar1.css">
+		
+		
 		
 	
 		<link rel="icon" type="image/png" href="assets/logo/team_2021/square_logo.png">
@@ -29,7 +29,679 @@
 
 		-->
 	</head>
+	<style>
+body{
+    min-width: fit-content !important; 
+}
 
+
+/*div containing title image*/
+
+
+.top_display-project {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("assets/Photo_tiphaines/julien-abri.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .top_display {
+        background-attachment: scroll;
+    }
+    .elegant-shadow {
+        color: #2c2c2c;
+        background-color: rgba(255, 255, 255, 0);
+        letter-spacing: .05em;
+        text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+}
+
+.top_display img {
+    width: 100%;
+    min-width: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+
+/*div containing title*/
+
+.bottom-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+/*title of page over image */
+
+.title-shadow {
+    font-size: calc(15px + 7vw);
+    text-rendering: optimizeLegibility;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+/*text content of the page*/
+
+#paragraph-title {
+    color: #2c2c2c;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: .05em;
+    text-shadow: 3px 3px 0px #d5d5d5, 4px 4px 0px rgba(0, 0, 0, 0.2);
+    font-size: calc(10px + 2vw);
+}
+
+.description-text {
+    min-width: 400px;
+    min-height: 50vh;
+    padding: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.description-text h1 {
+    font-size: calc(10px + 3vw);
+    padding-top: 100px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+.description-text h2 {
+    font-size: calc(8px + 1vw);
+    
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.description-text p {
+    font-size:calc(15px + 0.2vw);
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 80px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+
+#article-text p{
+    font-size:calc(15px + 0.3vw);
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 80px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400&display=swap');
+
+.wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    height:100%;
+}
+
+.wrapper {
+    background: #171c24;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.wrapper nav {
+    position: relative;
+    display: flex;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .content {
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links {
+    margin-left: 300px;
+    display: flex;
+}
+
+.content .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content .links li {
+    list-style: none;
+    line-height: 70px;
+}
+
+.content .links li a,
+.content .links li label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 17px;
+    transition: all 0.3s ease;
+}
+
+.content .links li .desktop-link:hover {
+    background: none;
+    color: #fff !important;
+}
+
+.content .links li label {
+    display: none;
+}
+
+.wrapper .content .links ul li a:hover,
+.content .links li label:hover,
+.highlight-me-daddy:hover {
+    text-decoration: none;
+    background: #ffffff !important;
+    color: black!important;
+}
+
+.wrapper .search-icon,
+.wrapper .menu-icon {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.wrapper .menu-icon {
+    display: none;
+}
+
+.wrapper #show-search:checked~.search-icon i::before {
+    content: "\f00d";
+}
+
+.wrapper .search-box {
+    position: absolute;
+    height: 100%;
+    max-width: calc(100% - 50px);
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.wrapper #show-search:checked~.search-box {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    background: #171c24;
+    padding: 0 100px 0 15px;
+}
+
+.search-box input::placeholder {
+    color: #f2f2f2;
+}
+
+.search-box .go-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 60px;
+    width: 70px;
+    background: #171c24;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrapper input[type="checkbox"] {
+    display: none;
+}
+
+
+/* Dropdown Menu code start */
+
+.content .links ul {
+    position: absolute;
+    background: #171c24;
+    top: 80px;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.content .links li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+
+.content .links ul li a {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 0px!important;
+}
+
+.content .links ul ul {
+    position: absolute;
+    top: 0;
+    right: calc(-100% + 8px);
+}
+
+.content .links ul li {
+    position: relative;
+}
+
+.content .links ul li:hover ul {
+    top: 0;
+}
+
+
+/* Responsive code start */
+
+@media screen and (max-width: 1500px) {
+    .wrapper nav {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    nav .content .links {
+        margin-left: 30px;
+    }
+    .content .links li a {
+        padding: 8px 13px;
+    }
+    .wrapper .search-box {
+        max-width: calc(100% - 100px);
+    }
+    .wrapper .search-box input {
+        padding: 0 100px 0 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper .menu-icon {
+        display: block;
+    }
+    .wrapper #show-menu:checked~.menu-icon i::before {
+        content: "\f00d";
+    }
+    nav .content .links {
+        display: block;
+        position: fixed;
+        background: #14181f;
+        height: 100%;
+        width: 100%;
+        top: 70px;
+        left: -100%;
+        margin-left: 0;
+        max-width: 350px;
+        overflow-y: auto;
+        padding-bottom: 100px;
+        transition: all 0.3s ease;
+    }
+    nav #show-menu:checked~.content .links {
+        left: 0%;
+    }
+    .content .links li {
+        margin: 15px 20px;
+    }
+    .content .links li a,
+    .content .links li label {
+        line-height: 40px;
+        font-size: 20px;
+        display: block;
+        padding: 8px 18px;
+        cursor: pointer;
+    }
+    .content .links li a.desktop-link {
+        display: none;
+    }
+    /* dropdown responsive code start */
+    .content .links ul,
+    .content .links ul ul {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        background: none;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .content .links #show-features:checked~ul,
+    .content .links #show-services:checked~ul,
+    .content .links #show-drylab:checked~ul,
+    .content .links #show-awards:checked~ul,
+    .content .links #show-human:checked~ul,
+    .content .links #show-team:checked~ul,
+    .content .links #show-items:checked~ul {
+        max-height: 100vh;
+    }
+    .content .links ul li {
+        margin: 7px 20px;
+    }
+    .content .links ul li a {
+        font-size: 18px;
+        line-height: 30px;
+        border-radius: 5px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper nav {
+        padding: 0 10px;
+    }
+    .content .logo a {
+        font-size: 27px;
+    }
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    z-index: -1;
+    padding: 0 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.title h2 {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+
+/*footer */
+
+footer {
+    background-color: #011C40;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    min-width: 600px;
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+    position: relative;
+    
+    left: 0;
+    bottom: 0;
+    z-index: 100000000000000000;
+}
+
+footer div {
+    padding: 20px;
+    margin: 10px;
+}
+
+#sponsor {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem
+}
+
+.last {
+    grid-column: 2;
+}
+
+#sponsor h1 {
+    color: white;
+    grid-column: 1/4;
+    border-bottom: white 1px solid;
+    padding: 20px;
+    margin-top: 0px;
+    font-size: calc(15px + 1.5vw);
+}
+
+#sponsor img {
+    width: 50%;
+    min-width: 50px;
+}
+
+#follow {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem;
+    border-left: white 1px solid;
+}
+
+#follow h1 {
+    color: white;
+    grid-column: 1/4;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: white 1px solid;
+    font-size: calc(15px + 1.5vw);
+}
+
+#follow img {
+    width: 50%;
+    min-width: 40px;
+}
+
+#contact {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem;
+    border-left: white 1px solid;
+}
+
+#contact h1 {
+    color: white;
+    grid-column: 1/4;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: white 1px solid;
+    font-size: calc(15px + 1.5vw);
+}
+
+#contact img {
+    width: 40%;
+    min-width: 40px;
+}
+
+#mail {
+    grid-column: 2;
+}
+
+.sponsors .unil-logo a:hover {
+    background-image:url("assets\logo\sponsor\colored\uniltransparent.png");
+    z-index: 10000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400&display=swap');
+
+* {
+  box-sizing: border-box; }
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto; }
+
+body {
+ 
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Noto Sans Display', sans-serif; }
+
+
+
+.toc {
+  /*background-color: rgba(245, 245, 245, 0.425);
+  border: 2px solid rgb(83, 80, 80);
+  border-radius: 5px;*/
+  position: fixed;
+  width: 200px;
+  left: 2em;
+  top:10em;
+  line-height: 2; 
+  padding: 10px;
+  z-index: 20;
+}
+  .toc ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .toc ul ul {
+    padding-left: 2em; }
+  .toc li a {
+    
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1); }
+  .toc li.visible > a {
+    color: #111;
+    transform: translate(5px); }
+
+.toc-marker {
+  box-shadow: rgba(0, 0, 0, 0.30) 1.95px 1.95px 2.6px;
+  
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+  .toc-marker path {
+    transition: all 0.3s ease; }
+section{
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 80px;
+}
+.contents {
+  background: white;
+  text-align: justify;
+  text-justify: inter-word;
+  position:absolute;
+  font-size: 1.2em;
+  font-family: 'Noto-sans', sans-serif; }
+  .contents a {
+    color:blue;
+    font-family: 'Noto-sans', sans-serif;
+     }
+     .contents p {
+      color:black;
+      font-family: 'Noto-sans', sans-serif;
+       }
+  .contents img {
+    max-width: 100%; }
+
+  .contents h2
+h3 {
+    padding-top: 1em;
+    font-family: 'Noto-sans', sans-serif;
+     }
+  .contents h2 {
+    margin-top: 1.2em;
+    font-family: 'Noto-sans', sans-serif;
+     }
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 14px; } }
+   
+#hero {
+      background-image: url("assets/engineering/DSC01046.jpeg");
+      width: 100%;
+      height: 70vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      background-attachment: fixed;
+     
+      
+  }
+#hero h1{
+  font-size: calc(10px + 7vw);
+  text-rendering: optimizeLegibility;
+  color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid-container {
+  display: grid  inline-grid;
+  grid-template-columns: 
+      minmax(10px, 1fr) 3fr
+      repeat(5, 1fr)
+      50px auto 100px 1fr;
+  
+  grid-template-rows: 
+    min-content 1fr min-content
+      100px 1fr max-content;
+}
+
+
+figure{
+  border: 1px black solid; padding:4px; margin:auto;
+}
+
+#article-image{
+  width:50%; padding-bottom: 80px; display: block;
+						margin-left: auto;
+						margin-right: auto
+}
+figcaption{
+  text-align: center;  font-style: italic;
+						padding: 2px;
+						text-align: center;
+}
+
+
+	</style>
 	<div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
@@ -146,8 +818,8 @@
 </div>
 		<article class="contents">
 			<section id="intro">
-				<h2>Intro title</h2>
-				<p>
+				<h2 id="paragraph-title">Intro title</h2>
+				<p id="article-text">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
                     recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
                     placeat voluptas, ipsam impedit ea ad ullam quis molestiae quod. Cumque culpa pariatur assumenda error. Voluptate, voluptatibus veniam? Delectus tenetur quia facere perferendis vitae, dolore officiis quas repellat eum nam hic dignissimos!
@@ -159,11 +831,11 @@
 
 			<section>
 				<div id="title1">
-					<h2>Title1</h2>
-					<p>
+					<h2 id="paragraph-title">Title1</h2>
+					<p id="article-text">
 						The Slides editor has a developer mode which is useful if you know a bit of HTML and CSS. With this mode active you will be able to modify the underlying HTML of your deck, allowing you to make adjustments that the Slides editor does not provide interface options for.
 					</p>
-					<p>
+					<p id="article-text">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
 						recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
 						placeat voluptas, ipsam impedit ea ad ullam quis molestiae quod. Cumque culpa pariatur assumenda error. Voluptate, voluptatibus veniam? Delectus tenetur quia facere perferendis vitae, dolore officiis quas repellat eum nam hic dignissimos!
@@ -174,10 +846,14 @@
 
 				<div id="subtitle1">
 					<h3>subtitle1</h3>
-					<p>
+					<p id="article-text">
 						The per-slide HTML editor can be accessed from the slide options area. It gives you raw access to the current slide's HTML, allowing you to change anything you like. Note that some elements, such as &lt;script&gt; and &lt;link&gt;, are not allowed for security reasons.﻿
 					</p>
-					<p>
+					<figure>
+						<img id="article-image"src="assets/Capture1.PNG" alt="Trulli" style="width:50%;">
+						<figcaption>Fig.1 - Example of an image and caption</figcaption>
+					  </figure>
+					<p id="article-text">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
 						recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
 						placeat voluptas, ipsam impedit ea ad ullam quis molestiae quod. Cumque culpa pariatur assumenda error. Voluptate, voluptatibus veniam? Delectus tenetur quia facere perferendis vitae, dolore officiis quas repellat eum nam hic dignissimos!
@@ -189,10 +865,10 @@
 
 				<div id="subtitle2">
 					<h3>subtitle2 </h3>
-					<p>
+					<p id="article-text">
 						As a paying Slides customer you have access to the <a href="#css">CSS editor</a> which allows you to add custom styles to your deck. By turning on the developer mode a new "class name" field will appear for any block that you focus. This allows you to easily target a specific element with your CSS.
 					</p>
-					<p>
+					<p id="article-text">
 						Here's an example that defines an "upside-down" class using custom CSS and applies it to a text block.
 					</p>
 
@@ -201,8 +877,8 @@
 			</section>
 			<section>
 				<div id="title2">
-					<h2>Title2</h2>
-					<p>
+					<h2 id="paragraph-title">Title2</h2>
+					<p id="article-text">
 						The Slides editor has a developer mode which is useful if you know a bit of HTML and CSS. With this mode active you will be able to modify the underlying HTML of your deck, allowing you to make adjustments that the Slides editor does not provide interface options for.
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
 						recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
@@ -251,17 +927,17 @@
 
 				<div id="subtitle4">
 					<h3>subtitle4</h3>
-					<p>
+					<p id="article-text">
 						As a paying Slides customer you have access to the <a href="#css">CSS editor</a> which allows you to add custom styles to your deck. By turning on the developer mode a new "class name" field will appear for any block that you focus. This allows you to easily target a specific element with your CSS.
 					</p>
-					<p>
+					<p id="article-text">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
 						recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
 						placeat voluptas, ipsam impedit ea ad ullam quis molestiae quod. Cumque culpa pariatur assumenda error. Voluptate, voluptatibus veniam? Delectus tenetur quia facere perferendis vitae, dolore officiis quas repellat eum nam hic dignissimos!
 						Eligendi?
 						Links <a href="http://hakim.se" target="_top">other page</a> | <a href="http://twitter.com/hakimel" target="_top">another page</a> 
 					</p>
-					<p>
+					<p id="article-text">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel optio sit tenetur maiores. Laudantium, fugit sed error in ab facilis accusamus quam temporibus culpa, possimus nihil, ad ea eveniet omnis consectetur veniam! Perferendis a nam
 						recusandae praesentium cumque ratione, illo illum aliquam nostrum cupiditate vero! Facere error cumque facilis voluptates! Iure id quia officia dicta earum soluta distinctio deserunt veritatis minima architecto saepe reiciendis, vel
 						placeat voluptas, ipsam impedit ea ad ullam quis molestiae quod. Cumque culpa pariatur assumenda error. Voluptate, voluptatibus veniam? Delectus tenetur quia facere perferendis vitae, dolore officiis quas repellat eum nam hic dignissimos!

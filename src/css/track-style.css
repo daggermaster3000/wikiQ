@@ -57,14 +57,15 @@ body {
   z-index: -1; }
   .toc-marker path {
     transition: all 0.3s ease; }
-
+section{
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 80px;
+}
 .contents {
   background: white;
   text-align: justify;
   text-justify: inter-word;
-  padding-top: 50px;
-  padding-left: 300px;
-  padding-right: 80px;
   position:absolute;
   font-size: 1.2em;
   font-family: 'Noto-sans', sans-serif; }
@@ -82,10 +83,12 @@ body {
   .contents h2
 h3 {
     padding-top: 1em;
-    font-family: 'Noto-sans', sans-serif; }
+    font-family: 'Noto-sans', sans-serif;
+     }
   .contents h2 {
     margin-top: 1.2em;
-    font-family: 'Noto-sans', sans-serif; }
+    font-family: 'Noto-sans', sans-serif;
+     }
 
 @media screen and (max-width: 1200px) {
   body {
@@ -124,4 +127,20 @@ h3 {
   grid-template-rows: 
     min-content 1fr min-content
       100px 1fr max-content;
+}
+
+
+figure{
+  border: 1px black solid; padding:4px; margin:auto;
+}
+
+#article-image{
+  width:50%; padding-bottom: 80px; display: block;
+						margin-left: auto;
+						margin-right: auto
+}
+figcaption{
+  text-align: center;  font-style: italic;
+						padding: 2px;
+						text-align: center;
 }
