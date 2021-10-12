@@ -7,13 +7,10 @@
     text-decoration: none !important;
     font-family: 'Noto Sans Display', sans-serif;
 }
-footer{
-    text-decoration: none !important;
-    font-family: 'Noto Sans Display', sans-serif;
-}
 
 html {
     scroll-behavior: smooth;
+    height:100%;
 }
 
 .wrapper {
@@ -305,13 +302,18 @@ nav .content .links {
 /*footer */
 
 footer {
-    position: bottom;
     background-color: #011C40;
-    width: 100%;
-    height: auto;
+    max-height: auto;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     min-width: 600px;
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+    position: relative;
+    
+    left: 0;
+    bottom: 0;
+    z-index: 100000000000000000;
 }
 
 footer div {
@@ -341,7 +343,7 @@ footer div {
 }
 
 #sponsor img {
-    width: 70%;
+    width: 50%;
     min-width: 50px;
 }
 
@@ -364,7 +366,7 @@ footer div {
 }
 
 #follow img {
-    width: 70%;
+    width: 50%;
     min-width: 40px;
 }
 
@@ -387,7 +389,7 @@ footer div {
 }
 
 #contact img {
-    width: 70%;
+    width: 40%;
     min-width: 40px;
 }
 

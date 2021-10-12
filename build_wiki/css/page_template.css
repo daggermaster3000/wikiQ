@@ -88,7 +88,7 @@ body{
 /*title of page over image */
 
 .title-shadow {
-    font-size: calc(10px + 7vw);
+    font-size: calc(15px + 7vw);
     text-rendering: optimizeLegibility;
     color: #e0dfdc;
     letter-spacing: .1em;
@@ -98,11 +98,12 @@ body{
 
 /*text content of the page*/
 
-.elegant-shadow {
+#paragraph-title {
     color: #2c2c2c;
     background-color: rgba(255, 255, 255, 0);
     letter-spacing: .05em;
-    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 3px 0px #d5d5d5, 4px 4px 0px rgba(0, 0, 0, 0.2);
+    font-size: calc(10px + 2vw);
 }
 
 .description-text {

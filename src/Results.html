@@ -1,0 +1,310 @@
+<html>
+
+<head>
+    <title>UNIL iGEM Team</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/navbar1.css">
+    <link rel="stylesheet" href="css/igem-reset.css">
+    <link rel="stylesheet" href="css/template_style2.css">
+
+    
+    <link rel="icon" type="image/png" href="assets/logo/team_2021/square_logo.png">
+
+    <link rel="stylesheet" href="css/pablo.css">
+
+</head>
+<style>
+body{
+    min-width: fit-content !important; 
+}
+
+
+/*div containing title image*/
+
+.top_display-drylab {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("assets/engineering/DSC01046.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-description {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url(assets/engineering/DSC01046.png);
+    background-color: #cec0ec;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-project {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("assets/Photo_tiphaines/julien-abri.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .top_display {
+        background-attachment: scroll;
+    }
+    .elegant-shadow {
+        color: #2c2c2c;
+        background-color: rgba(255, 255, 255, 0);
+        letter-spacing: .05em;
+        text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+}
+
+.top_display img {
+    width: 100%;
+    min-width: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+
+/*div containing title*/
+
+.bottom-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+/*title of page over image */
+
+.title-shadow {
+    font-size: calc(10px + 7vw);
+    text-rendering: optimizeLegibility;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+/*text content of the page*/
+
+.elegant-shadow {
+    color: #2c2c2c;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.description-text {
+    min-width: 400px;
+    min-height: 50vh;
+    padding: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.description-text h1 {
+    font-size: calc(10px + 3vw);
+    padding-top: 100px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+.description-text h2 {
+    font-size: calc(8px + 1vw);
+    
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.description-text p {
+    font-size:calc(15px + 0.2vw);
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 80px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+
+
+
+
+
+</style>
+
+    
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><img src="assets\logo\team_2021\menu_white.svg"></label>
+            <div class="content">
+                <div class="logo"><img src="assets\logo\team_2021\Asset 1.svg" width="200px"></div>
+                <ul class="links">
+                    <li><a class="highlight-me-daddy"href="index.html">Home</a></li>
+                    <li>
+                        <a class="desktop-link">Project</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Project</label>
+                        <ul>
+                            <li><a href="description.html">Description</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="proofofconcept.html">Proof of concept</a></li>
+                            <li><a href="contribution.html">Contribution</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="wetlab.html" class="desktop-link">Wetlab</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Wetlab</label>
+                        <ul>
+                            <li><a href="results.html">Results</a></li>
+                            <li><a href="engineering.html">Engineering Success</a></li>
+                            <li><a href="measurements.html">Measurements</a></li>
+                            <li><a href="parts.html">Parts</a></li>
+                            <li><a href="notebook.html">Lab Notebook</a></li>
+                            <li><a href="safety.html">Safety</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="desktop-link">Drylab</a>
+                        <input type="checkbox" id="show-drylab">
+                        <label for="show-drylab">Drylab</label>
+                        <ul>
+                            <li><a href="hardware.html">Hardware</a></li>
+                            <li><a href="software.html">Software</a></li>
+                            <li><a href="model.html">Model</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="human practices.html" class="desktop-link">Human Practices</a>
+                        <input type="checkbox" id="show-human">
+                        <label for="show-human">Human Practices</label>
+                        <ul>
+                            <li><a href="integratedhumanpractices.html">Integrated Human Practices</a></li>
+                            <li><a href="implementation.html">Implementation</a></li>
+                            <li><a href="communication.html">Communication</a></li>
+                            <li><a href="education.html">Education</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="desktop-link">Team</a>
+                        <input type="checkbox" id="show-team">
+                        <label for="show-team">Team</label>
+                        <ul>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="attribution.html">Attribution</a></li>
+                            <li><a href="collaboration.html">Collaboration</a></li>
+                            <li><a href="partnership.html">Partnership</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="awards.html" class="desktop-link">Awards</a>
+                        <input type="checkbox" id="show-awards">
+                        <label for="show-awards">Awards</label>
+                        <ul>
+                            <li><a href="medals.html">Medals</a></li>
+                            <li><a href="specialprizes.html">Special Prizes</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+  
+
+<body>
+    <div class="top_display-description">
+        <div class="bottom-right">
+            <h1 class="title-shadow"><b>Description</b></h1>
+        </div>
+    </div>
+    <div class="description-text">
+        <h1 id="hardware" class="elegant-shadow">Context</h1>
+        
+        <h2>Plant frost damage is not only a physical phenomenon</h2>
+        <p>
+            Some bacteria species which live on plant surfaces were shown to <b>promote ice crystal formation</b> and thus to increase frost damage on plants. Contrary to popular belief, water does not only need negative temperatures to freeze. Ice formation also requires a certain template to organise the water molecules in their crystalline pattern. 
+            This template is called an ice nucleating center. The ice will then form a lattice on which free water molecules will attach, making the crystal grow. Minerals and small particles act as ice nucleating centers. Moreover, plant tissues themselves are also relatively bad ice nuclei: when frost sensitive plants are grown in sterile conditions, most of them can resist to temperature as low as – 5 °C to – 10 °C without frost damage. However, in the environment, frost sensitive plants suffer at temperature only slightly below 0 °C from frost damage which are caused by bacteria colonizing their surface, especially the species Pseudomonas syringae. Pseudomonas syringae produces an ice nucleation protein, called InaZ2, on its membrane which catalyses the formation of ice crystals and thus causes frost damage on the plant at higher temperature. The damage helps the bacteria to get in the plant as Pseudomonas syringae is also a plant pathogen. For these reasons, Pseudomonas syringae is a big problem for apricot producers.3 Our project therefore aims at providing two approaches to fight these bacteria.</p>
+    </div>
+    <div class="description-text">
+        <h1 id="software" class="elegant-shadow">Our Solution</h1>
+        <h2>Aprifreeze- Biological Treatments to Protect Apricot Trees from Frost Damage</h2>
+        <p>If you are using a separate program or software tool to create your wiki pages (i.e., Dreamweaver), you should test out how you will import the code over to your Team Wiki on Testing Day, if not before. Importing pages designed in other programs
+            often takes time and effort to understand how to bring the correct files over. Do not wait until the week of the Wiki Freeze to test this out! You may experience serious problems and it may take you longer than expected to upload the correct
+            files and templates.</p>
+    </div>
+    <div class="description-text">
+        <h1 id="model" class="elegant-shadow">Anti-Freeze Proteins</h1>
+        <p>If you are using a separate program or software tool to create your wiki pages (i.e., Dreamweaver), you should test out how you will import the code over to your Team Wiki on Testing Day, if not before. Importing pages designed in other programs
+            often takes time and effort to understand how to bring the correct files over. Do not wait until the week of the Wiki Freeze to test this out! You may experience serious problems and it may take you longer than expected to upload the correct
+            files and templates.</p>
+    </div>
+    <div class="description-text">
+        <h1 id="tailocins" class="elegant-shadow">Tailocins</h1>
+        <p>If you are using a separate program or software tool to create your wiki pages (i.e., Dreamweaver), you should test out how you will import the code over to your Team Wiki on Testing Day, if not before. Importing pages designed in other programs
+            often takes time and effort to understand how to bring the correct files over. Do not wait until the week of the Wiki Freeze to test this out! You may experience serious problems and it may take you longer than expected to upload the correct
+            files and templates.</p>
+    </div>
+
+
+    <footer>
+        <div id="sponsor">
+            <h1>Sponsors</h1>
+            <a class="unil-logo" href="https://www.unil.ch/index.html" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/unil_logo_white.png" alt="UNIL logo"></a>
+            <a href="https://international.neb.com/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/biolab_logo_white.png" alt="biolab logo"></a>
+            <a href="https://www.genscript.com/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/GenScript-white.png" alt="logo genscript"></a>
+            <a href="https://eu.idtdna.com/pages" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/IDT_logo_white_rmbg.png" alt="IDT logo"></a>
+            <a href="https://www.leenaards.ch/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/leenaards-removebg-white.png" alt="fondation leenaards logo"></a>
+            <a href="https://www.microsynth.com/home-ch.html" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/microsynth_logo_white.png" alt="microsynth logo"></a>
+            <a href="https://ch.promega.com/" target="_blank" rel="noopener noreferrer" class="last"><img src="assets/logo/sponsor/white/Promega_logo_white.png" alt="promega logo"></a>
+        </div>
+        <div id="follow">
+            <h1>Follow Us</h1>
+            <a href="https://instagram.com/igem_unil?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/instagram_white.png" alt="Instagram logo"></a>
+            <a href="https://twitter.com/IgemUnil" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/Twitter_white.png" alt="Twitter logo"></a>
+            <a href="https://www.linkedin.com/in/igem-unil-1526621a3/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/linkedin_white.png" alt="linkedin logo"></a>
+        </div>
+        <div id="contact">
+            <h1>Contact</h1>
+            <a href="mailto:igem.unil@gmail.com?subject=Mail from Our Wiki" id="mail"><img src="assets/logo/social media/logo_mail.png" alt="logo mail"></a>
+        </div>
+    </footer>
+</body>
+
+
+
+
+</html>
