@@ -123,6 +123,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--logo--sponsor--white--Promega_logo_white.png
     md5: fad7052bcadf69ee68cca2a332ebf1c4
     upload_filename: T--UNILausanne--logo--sponsor--white--Promega_logo_white.png
+  assets\logo\sponsor\white\Twist_Logo_white.png:
+    link_URL: https://2021.igem.org/wiki/images/6/62/T--UNILausanne--logo--sponsor--white--Twist_Logo_white.png
+    md5: 22c9fe0aded4cccbee7794bb59456138
+    upload_filename: T--UNILausanne--logo--sponsor--white--Twist_Logo_white.png
   assets\logo\sponsor\white\biolab_logo_white.png:
     link_URL: https://2021.igem.org/wiki/images/5/56/T--UNILausanne--logo--sponsor--white--biolab_logo_white.png
     md5: 33149bb86ca1ddbb08fb0d52ad79279a
@@ -187,6 +191,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/0/02/T--UNILausanne--logo--team_2021--square_logo_red.png
     md5: 363158ea3688fde1e839bb6ef6ce7ca0
     upload_filename: T--UNILausanne--logo--team_2021--square_logo_red.png
+  assets\logo\team_2021\square_logo_silouette.png:
+    link_URL: https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--logo--team_2021--square_logo_silouette.png
+    md5: 65014b5718053ce76dce792d8c012c28
+    upload_filename: T--UNILausanne--logo--team_2021--square_logo_silouette.png
   assets\logo\team_2021\square_logo_yellow.png:
     link_URL: https://2021.igem.org/wiki/images/c/c0/T--UNILausanne--logo--team_2021--square_logo_yellow.png
     md5: 335b60da455dd3da662e7332d2947777
@@ -263,6 +271,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/b/b8/T--UNILausanne--video--dreamstime_lower.mp4
     md5: 7dd27ef364fda0716b9891ba31bfaa5b
     upload_filename: T--UNILausanne--video--dreamstime_lower.mp4
+  assets\video\dreamstime_lower_faster.mp4:
+    link_URL: https://2021.igem.org/wiki/images/2/2a/T--UNILausanne--video--dreamstime_lower_faster.mp4
+    md5: b5e5f2f426dee9122527db00e24822ab
+    upload_filename: T--UNILausanne--video--dreamstime_lower_faster.mp4
   "assets\\video\\vid\xE9o_goutte_gel.mp4":
     link_URL: https://2021.igem.org/wiki/images/8/8e/T--UNILausanne--video--vid%C3%A9o_goutte_gel.mp4
     md5: 0d59c360eac1b0edaa291e0183bef2a0
@@ -326,67 +338,67 @@ css:
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Attributions
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Awards.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Awards
     md5: 1d81a9caede661f0bb54edccefd58885
   Collaborations.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Collaborations
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Communication.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Communication
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Contribution.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Contribution
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Description.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Description
-    md5: 1a6f4060c3d6880054b889ef2398f700
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Education.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Education
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Engineering.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Engineering
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Experiments.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Experiments
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Hardware.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Hardware
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Human_Practices
-    md5: b0983525c119f053de23d27c580edd88
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Implementation.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Implementation
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Measurement.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Measurement
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Model.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Model
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Notebook.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Notebook
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Partnership.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Partnership
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Parts.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Parts
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Proof_Of_Concept.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Proof_Of_Concept
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Results.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Results
-    md5: 1a6f4060c3d6880054b889ef2398f700
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Safety.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Safety
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Software.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Software
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   Team.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Team
     md5: 086707e4369f60afedcafb16050a7618
@@ -401,7 +413,7 @@ html:
     md5: ''
   index.html:
     link_URL: https://2021.igem.org/Team:UNILausanne
-    md5: b1096b8ffe3694756de23f52769155ae
+    md5: 341728e97900540dec46e72f12d7fcd0
   project.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/project
     md5: 5bac8269435da0e861e91040feee040e
@@ -410,7 +422,7 @@ html:
     md5: ''
   template-final.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/template-final
-    md5: 3084a99cb7a43c7ae3e6d646ae002b6b
+    md5: d2229b5f5b49de3f762f7e65d82b6d10
   template.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/template
     md5: ''
