@@ -869,29 +869,25 @@ figure {
 			<section id="intro">
 				<h2 style="font-size: 2em;" id="paragraph-title">Introduction </h2>
 				<p id="article-text" style="font-size: 1em;">
-                    Our project requires a precise control of temperature under a microscope. We created: FROZONE, a precise cooling device that fits under a microscope, it acts like a Nanoliter Osmometer. This machine was inspired by the <a href="https://docs.google.com/document/d/1NyBdOtWBIU_gHp7boHjlQVsLQZPI1HuZc0qoaFAkeQM/edit#" target="_top">"MicroIce LTD"</a> . According to them "A Nanoliter osmometer is a cooling stage mounted on an upright optical microscope. Cooling of the stage is achieved with the use of Peltier devices driven with a precision temperature controller."
-
-                    Our Nanoliter osmometer, Frozone, was designed and created by ourselves. Cooling is achieved with a thermoelectric cooler controlled by a custom Python <a href="Software.html" target="_top">software</a>. We also designed a vacuum chamber to minimize ambient humidity from crystallizing on our samples (using a vacuum pump or a dessicant).
-                    
-                    Put simply, we created a machine that controls the temperature of a copper plate in order to measure the Thermal hysteresis of our different sample solutions.
-                    
+                    Our project requires a precise control of temperature under a microscope. We created: FROZONE, a precise cooling device that fits under a microscope, it acts like a Nanoliter Osmometer. This machine was inspired by the <a href="https://docs.google.com/document/d/1NyBdOtWBIU_gHp7boHjlQVsLQZPI1HuZc0qoaFAkeQM/edit#" target="_top">"MicroIce LTD"</a> . 
+                    According to them "A Nanoliter osmometer is a cooling stage mounted on an upright optical microscope. Cooling of the stage is achieved with the use of Peltier devices driven with a precision temperature controller."
+                    Our Nanoliter osmometer, Frozone, was designed and created by ourselves. Cooling is achieved with a thermoelectric cooler controlled by a custom Python <a href="Software.html" target="_top">software</a>. We also designed a vacuum chamber to minimize ambient humidity from crystallizing on our samples (using a vacuum pump or a dessicant). 
+                    Put simply, we created a machine that controls the temperature of a copper plate in order to measure the Thermal hysteresis of our different sample solutions.   
 				</p>
-
-				
 			</section>
             <section id="design">
 
 				<h2 style="font-size: 2em;" id="paragraph-title">Design </h2>
                 <div id="peltier">
                 <h3 style="font-size: 1.4em; padding-top: 80px;">1. The Peltier device</h3>
-                   <p> The core of Frozone is a Peltier device. This device is an electrical module with two faces. One face can heat, and the other one can 
+                   <p id="article-text" style="font-size: 1em;"> The core of Frozone is a Peltier device. This device is an electrical module with two faces. One face can heat, and the other one can 
                        cool down the temperature. We place a copper plate on the cooling face in order to have some space to place our samples.
                 
                 </p>
 </div>
 <div id="vacuum">
                 <h3 style="font-size: 1.4em; padding-top: 80px;">2. The vacuum chamber</h3>
-                   <p>After some trials we saw that a lot of ambient humidity started crystallizing on our samples, to avoid this, we built a vacuum chamber connected to a pump. We can make a vacuum and 
+                   <p id="article-text" style="font-size: 1em;">After some trials we saw that a lot of ambient humidity started crystallizing on our samples, to avoid this, we built a vacuum chamber connected to a pump. We can make a vacuum and 
                        then quickly place our sample on the copper plate. The chamber was built using a laser cutter to cut our part from the plexiglass plate. The cutting  had to be very precise to avoid any leak during the vacuum process. The parts of the chamber were then glued together with some epoxy glue.
                 </p>
                 <br>
@@ -912,7 +908,7 @@ figure {
 
 <div id="thermo">
                  <h3 style="font-size: 1.4em; padding-top: 80px;">3. The Thermocouple</h3>
-				<p>We added a thermocouple between the copper plate and the peltier cell to have a more precise temperature. The temperature recorded by the thermometer is then used with our software</p>
+				<p id="article-text" style="font-size: 1em;">We added a thermocouple between the copper plate and the peltier cell to have a more precise temperature. The temperature recorded by the thermometer is then used with our software</p>
 </div>
             </section>
 
@@ -921,8 +917,8 @@ figure {
 
             <section id="overview">
                 <h2 style="font-size: 2em;" id="paragraph-title">Overview</h2>
-            <video id="v0" tabindex="0" autobuffer preload loop>
-                <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="assets\video\Frozone_animation_1.mp4"></source>
+            <video id="v0" tabindex="0" autobuffer preload loops style="height: 80vh;">
+                <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="assets\froz_4.mp4"></source>
             </video>
 
 </section>
@@ -930,9 +926,9 @@ figure {
 
 <section id="improvements">
     <h2 style="font-size: 2em;" id="paragraph-title">Improvements</h2>
-    <p>Frozone was not built in one trial, we had to make a lot of prototypes before having the final product, test them and improve them. One main component that was constantly 
+    <p id="article-text" style="font-size: 1em;">Frozone was not built in one trial, we had to make a lot of prototypes before having the final product, test them and improve them. One main component that was constantly 
         changing was the vacuum chamber, at first we did not use a vacuum, but after a few trials we observed a lot of droplets everywhere due to the ambient humidity (figure 3).</p>
-    <p>To get rid of these droplets we designed a vacuum chamber. First, we were using the wrong glue (and it caused some leaks). Then, we realised that making the vacuum with our sample drop already inside is a bad idea (it can evaporate the drop)(figure 4), 
+    <p id="article-text" style="font-size: 1em;">To get rid of these droplets we designed a vacuum chamber. First, we were using the wrong glue (and it caused some leaks). Then, we realised that making the vacuum with our sample drop already inside is a bad idea (it can evaporate the drop)(figure 4), 
         so we adjusted our protocol to make the vacuum just before adding the sample probe. And finally we added some silica gel, the same you can find in your shoe box to avoid humidity (figure 5).</p>    
  <br>
 
@@ -956,7 +952,7 @@ figure {
 
 <section id="setup">
     <h2 style="font-size: 2em;" id="paragraph-title">Setup</h2>
-    <p>Frozone is set under a microscope, it is powered by a power supply (controlled by the computer via a USB cable) and its fan is plugged into a power strip. The Thermocouple probe is set between the copper plate and the peltier cells, and the Thermocouple output is plugged into the computer.
+    <p id="article-text" style="font-size: 1em;">Frozone is set under a microscope, it is powered by a power supply (controlled by the computer via a USB cable) and its fan is plugged into a power strip. The Thermocouple probe is set between the copper plate and the peltier cells, and the Thermocouple output is plugged into the computer.
 
         Finding a microscope that can fit frozone is not an easy task, we found one but unfortunately this microscope had no brightfield top light, so we added an external light with optical fiber. 
         </p>    

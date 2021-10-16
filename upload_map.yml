@@ -43,6 +43,30 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/f/ff/T--UNILausanne--engineering--DSC01046.png
     md5: 6a121adecd01974ee6dce783328d2378
     upload_filename: T--UNILausanne--engineering--DSC01046.png
+  assets\fig-3-hardware.png:
+    link_URL: https://2021.igem.org/wiki/images/0/01/T--UNILausanne--fig-3-hardware.png
+    md5: 2d78cadacd1868d7d319b3b5e0786130
+    upload_filename: T--UNILausanne--fig-3-hardware.png
+  assets\fig-4-hardware.png:
+    link_URL: https://2021.igem.org/wiki/images/0/01/T--UNILausanne--fig-4-hardware.png
+    md5: 8d1a815734009c6de48b795ddc1c1b68
+    upload_filename: T--UNILausanne--fig-4-hardware.png
+  assets\fig-5-hardware.png:
+    link_URL: https://2021.igem.org/wiki/images/0/04/T--UNILausanne--fig-5-hardware.png
+    md5: 8623fe6aff7b522ba5ed34e2522165b4
+    upload_filename: T--UNILausanne--fig-5-hardware.png
+  assets\fig-6-hardware.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/1c/T--UNILausanne--fig-6-hardware.jpg
+    md5: e4fde7c54cebde255a6e2396430ab76d
+    upload_filename: T--UNILausanne--fig-6-hardware.jpg
+  assets\hardware-3d-1.jpg:
+    link_URL: https://2021.igem.org/wiki/images/8/87/T--UNILausanne--hardware-3d-1.jpg
+    md5: 4ecb5df36f903ee23210868634dac869
+    upload_filename: T--UNILausanne--hardware-3d-1.jpg
+  assets\img2-hardware.jpg:
+    link_URL: https://2021.igem.org/wiki/images/6/61/T--UNILausanne--img2-hardware.jpg
+    md5: e01977593880d7cfac08d9fa350cf364
+    upload_filename: T--UNILausanne--img2-hardware.jpg
   assets\logo\social media\584856b4e0bb315b0f7675ac.png:
     link_URL: https://2021.igem.org/wiki/images/1/1a/T--UNILausanne--logo--social_media--584856b4e0bb315b0f7675ac.png
     md5: 894ecd08fd32d0a072f6200bea9890bb
@@ -263,6 +287,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/c8/T--UNILausanne--team--DSCF4944.jpeg
     md5: 1775f2177ba519f06a4c835868477205
     upload_filename: T--UNILausanne--team--DSCF4944.jpeg
+  assets\video\Frozone_animation_1.mp4:
+    link_URL: https://2021.igem.org/wiki/images/2/23/T--UNILausanne--video--Frozone_animation_1.mp4
+    md5: 53b70361f60ad4eb0b0cea1975eceeca
+    upload_filename: T--UNILausanne--video--Frozone_animation_1.mp4
   assets\video\dreamstime_background_ice.mp4:
     link_URL: https://2021.igem.org/wiki/images/7/72/T--UNILausanne--video--dreamstime_background_ice.mp4
     md5: aaa94fb7729270df071d03c5601051ea
@@ -338,70 +366,73 @@ css:
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Attributions
-    md5: 71fe7245b2e583e450c988582ca39ac8
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Awards.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Awards
-    md5: 1d81a9caede661f0bb54edccefd58885
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Collaborations.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Collaborations
-    md5: 71fe7245b2e583e450c988582ca39ac8
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Communication.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Communication
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Contribution.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Contribution
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Description.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Description
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Education.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Education
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Engineering.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Engineering
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Experiments.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Experiments
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Hardware.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Hardware
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 90f2e8e0d00aec5b03955bd776f9d3fa
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Human_Practices
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Implementation.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Implementation
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Measurement.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Measurement
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Model.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Model
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Notebook.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Notebook
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Partnership.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Partnership
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Parts.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Parts
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Proof_Of_Concept.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Proof_Of_Concept
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
+  Protocols.html:
+    link_URL: https://2021.igem.org/Team:UNILausanne/Protocols
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Results.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Results
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Safety.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Safety
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Software.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Software
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   Team.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Team
-    md5: 086707e4369f60afedcafb16050a7618
+    md5: 6f9a7a399bc45e795f774928b928b84a
   awards.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/awards
     md5: ''
@@ -422,7 +453,7 @@ html:
     md5: ''
   template-final.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/template-final
-    md5: 8834b850dea1b0a4559340238d369913
+    md5: 6f9a7a399bc45e795f774928b928b84a
   template.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/template
     md5: ''
