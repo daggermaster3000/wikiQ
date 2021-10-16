@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>UNIL iGEM Team</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/igem-reset.css">
+    <link rel="stylesheet" href="css/template_style2.css">
+    <link rel="icon" type="image/png" href="assets/logo/team_2021/square_logo.png">
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400&display=swap');
+
+.wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+footer{
+    text-decoration: none !important;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    background: #171c24;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.wrapper nav {
+    position: relative;
+    display: flex;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .content {
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links {
+    margin-left: 300px;
+    display: flex;
+}
+
+.content .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content .links li {
+    list-style: none;
+    line-height: 70px;
+}
+
+.content .links li a,
+.content .links li label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 17px;
+    transition: all 0.3s ease;
+}
+
+.content .links li .desktop-link:hover {
+    background: none;
+    color: #fff !important;
+}
+
+.content .links li label {
+    display: none;
+}
+
+.wrapper .content .links ul li a:hover,
+.content .links li label:hover,
+.highlight-me-daddy:hover {
+    text-decoration: none;
+    background: #ffffff !important;
+    color: black!important;
+}
+
+.wrapper .search-icon,
+.wrapper .menu-icon {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.wrapper .menu-icon {
+    display: none;
+}
+
+.wrapper #show-search:checked~.search-icon i::before {
+    content: "\f00d";
+}
+
+.wrapper .search-box {
+    position: absolute;
+    height: 100%;
+    max-width: calc(100% - 50px);
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.wrapper #show-search:checked~.search-box {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    background: #171c24;
+    padding: 0 100px 0 15px;
+}
+
+.search-box input::placeholder {
+    color: #f2f2f2;
+}
+
+.search-box .go-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 60px;
+    width: 70px;
+    background: #171c24;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrapper input[type="checkbox"] {
+    display: none;
+}
+
+
+/* Dropdown Menu code start */
+
+.content .links ul {
+    position: absolute;
+    background: #171c24;
+    top: 80px;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.content .links li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+
+.content .links ul li a {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 0px!important;
+}
+
+.content .links ul ul {
+    position: absolute;
+    top: 0;
+    right: calc(-100% + 8px);
+}
+
+.content .links ul li {
+    position: relative;
+}
+
+.content .links ul li:hover ul {
+    top: 0;
+}
+
+
+/* Responsive code start */
+
+@media screen and (max-width: 1500px) {
+    .wrapper nav {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    nav .content .links {
+        margin-left: 30px;
+    }
+    .content .links li a {
+        padding: 8px 13px;
+    }
+    .wrapper .search-box {
+        max-width: calc(100% - 100px);
+    }
+    .wrapper .search-box input {
+        padding: 0 100px 0 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper .menu-icon {
+        display: block;
+    }
+    .wrapper #show-menu:checked~.menu-icon i::before {
+        content: "\f00d";
+    }
+    nav .content .links {
+        display: block;
+        position: fixed;
+        background: #14181f;
+        height: 100%;
+        width: 100%;
+        top: 70px;
+        left: -100%;
+        margin-left: 0;
+        max-width: 350px;
+        overflow-y: auto;
+        padding-bottom: 100px;
+        transition: all 0.3s ease;
+    }
+    nav #show-menu:checked~.content .links {
+        left: 0%;
+    }
+    .content .links li {
+        margin: 15px 20px;
+    }
+    .content .links li a,
+    .content .links li label {
+        line-height: 40px;
+        font-size: 20px;
+        display: block;
+        padding: 8px 18px;
+        cursor: pointer;
+    }
+    .content .links li a.desktop-link {
+        display: none;
+    }
+    /* dropdown responsive code start */
+    .content .links ul,
+    .content .links ul ul {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        background: none;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .content .links #show-features:checked~ul,
+    .content .links #show-services:checked~ul,
+    .content .links #show-drylab:checked~ul,
+    .content .links #show-awards:checked~ul,
+    .content .links #show-human:checked~ul,
+    .content .links #show-team:checked~ul,
+    .content .links #show-items:checked~ul {
+        max-height: 100vh;
+    }
+    .content .links ul li {
+        margin: 7px 20px;
+    }
+    .content .links ul li a {
+        font-size: 18px;
+        line-height: 30px;
+        border-radius: 5px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper nav {
+        padding: 0 10px;
+    }
+    .content .logo a {
+        font-size: 27px;
+    }
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    z-index: -1;
+    padding: 0 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.title h2 {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+
+/*footer */
+
+footer {
+    position: bottom;
+    background-color: #011C40;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    min-width: 600px;
+}
+
+footer div {
+    padding: 20px;
+    margin: 10px;
+}
+
+#sponsor {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem
+}
+
+.last {
+    grid-column: 2;
+}
+
+#sponsor h1 {
+    color: white;
+    grid-column: 1/4;
+    border-bottom: white 1px solid;
+    padding: 20px;
+    margin-top: 0px;
+    font-size: calc(15px + 1.5vw);
+}
+
+#sponsor img {
+    width: 70%;
+    min-width: 50px;
+}
+
+#follow {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem;
+    border-left: white 1px solid;
+}
+
+#follow h1 {
+    color: white;
+    grid-column: 1/4;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: white 1px solid;
+    font-size: calc(15px + 1.5vw);
+}
+
+#follow img {
+    width: 70%;
+    min-width: 40px;
+}
+
+#contact {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 105px auto auto auto;
+    grid-gap: 1rem;
+    border-left: white 1px solid;
+}
+
+#contact h1 {
+    color: white;
+    grid-column: 1/4;
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: white 1px solid;
+    font-size: calc(15px + 1.5vw);
+}
+
+#contact img {
+    width: 70%;
+    min-width: 40px;
+}
+
+#mail {
+    grid-column: 2;
+}
+
+.sponsors .unil-logo a:hover {
+    background-image:url("assets\logo\sponsor\colored\uniltransparent.png");
+    z-index: 10000000;
+}
+
+
+body{
+    min-width: fit-content !important; 
+}
+
+
+/*div containing title image*/
+
+.top_display-drylab {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("assets/engineering/DSC01046.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-description {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url(assets/engineering/DSC01046.png);
+    background-color: #cec0ec;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_display-project {
+    width: 100%;
+    min-width: 400px;
+    /* The image used */
+    background-image: url("assets/Photo_tiphaines/julien-abri.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .top_display {
+        background-attachment: scroll;
+    }
+    .elegant-shadow {
+        color: #2c2c2c;
+        background-color: rgba(255, 255, 255, 0);
+        letter-spacing: .05em;
+        text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+}
+
+.top_display img {
+    width: 100%;
+    min-width: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+
+/*div containing title*/
+
+.bottom-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+/*title of page over image */
+
+.title-shadow {
+    font-size: calc(10px + 7vw);
+    text-rendering: optimizeLegibility;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+/*text content of the page*/
+
+.elegant-shadow {
+    color: #2c2c2c;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.description-text {
+    min-width: 400px;
+    min-height: 50vh;
+    padding: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.description-text h1 {
+    font-size: calc(10px + 3vw);
+    padding-top: 100px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+.description-text h2 {
+    font-size: calc(8px + 1vw);
+    
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.description-text p {
+    font-size:calc(15px + 0.2vw);
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 80px;
+    margin-top: -40px;
+    display: inline-block;
+    
+}
+
+ /* ~~~~~~~~~~~~~~~~~~~~~~~
+   
+    Table of content
+
+    1. Global Style
+    2. Typography
+    3. Layout
+        3.1 Headers
+        3.2 Sections
+        3.3 Footers
+    4. Components
+        4.1 Navigation bar
+            4.1.1 Dropdown
+        4.2 Section
+        4.3 Footer
+        4.4 Links
+    5. Responsive Rules
+
+    ~~~~~~~~~~~~~~~~~~~~~~~ */
+ /* ============ 
+   Global Style
+   ============ */
+ 
+   .background {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     -webkit-animation: fadein 2s;
+     -moz-animation: fadein 2s;
+     -ms-animation: fadein 2s;
+     -o-animation: fadein 2s;
+     animation: fadein 10s;
+     background-repeat: no-repeat;
+     z-index: -1000;
+ }
+ 
+ @keyframes fadein {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ /* Firefox < 16 */
+ 
+ @-moz-keyframes fadein {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ /* Safari, Chrome and Opera > 12.1 */
+ 
+ @-webkit-keyframes fadein {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ /* Internet Explorer */
+ 
+ @-ms-keyframes fadein {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ /* Opera < 12.1 */
+ 
+ @-o-keyframes fadein {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ body {
+     background: #ffff;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+     opacity: 0;
+     transition: opacity 2s;
+     -webkit-transition: opacity 2s;
+     /* Safari */
+ }
+ 
+ /* ============ 
+    Typography
+   ============ */
+ 
+ 
+ .content_text {
+     color: #21262e;
+     font-size: 1.4vw;
+     font-weight: bolder;
+ }
+ /* =========
+    Layout
+   ========= */
+ /*headers*/
+ 
+ header.team {
+     background-image: url("assets/team/DSCF4930.jpeg");
+     background-size: 120%;
+     background-repeat: no-repeat;
+     background-position-y: 25%;
+     background-position-x: 75%;
+     height: 600px;
+ }
+ /* Sections */
+ 
+ .introduction{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .logo_Home_img {
+    margin-top:30px;
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    width:auto\9
+ }
+ 
+ 
+ .project_introduction {
+    position: relative;
+    width: 55%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    background-color: #f0c58c4b;
+    backdrop-filter: blur(25px);
+    margin: auto;
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap:3em;
+    justify-items: center;
+    margin-top: 300px;
+    margin-bottom: 25vw;
+ }
+
+ #text_intro_intro {
+    grid-row: 1;
+    grid-column: 1/3;
+ }
+
+ #apr_sil{
+    grid-column: 1;
+    grid-row: 2;
+ }
+ 
+ #mon_sil{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+#prod_apr{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#prod_mon {
+    grid-column: 2;
+    grid-row: 3;
+}
+ 
+ .project_indepth {
+     position: relative;
+     width: 55%;
+     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+     border-radius: 15px;
+     background-color: #f0c58c4b;
+     backdrop-filter: blur(25px);
+     margin: auto;
+     padding: 5vw;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: repeat(3, 1fr);
+     justify-items: center;
+     margin-bottom: 25vw;
+ }
+
+ .project_introduction img {
+     width: 40%;
+ }
+ 
+ .project_introduction p,  .project_indepth p{
+     text-align: center;
+     text-justify: inter-word;
+ }
+ 
+ #text_intro_indepth{
+    grid-row: 1;
+    grid-column: 1/4;
+ }
+
+ #prod_loss {
+     grid-column: 1;
+     grid-row: 3;
+ }
+ 
+ #prob_finance {
+     grid-column: 3;
+     grid-row: 3;
+ }
+
+ .alticon {
+    width: 40%;
+    background-color: none;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+ 
+ 
+ #pourcentage {
+     font-family: Impact, Haettenschweiler, 'Bold', sans-serif;
+     font-size: 8vw;
+     color: #21262e;
+ }
+ 
+ #one_product {
+     grid-column: 1/4;
+     text-align: center;
+     border-bottom: #21262e 3px solid;
+     margin-bottom: 100px;
+ }
+ 
+ #apricot_yellow {
+     grid-column: 1;
+     grid-row: 3;
+     object-fit: cover;
+     width: 55%;
+     display: flex;
+ }
+ 
+ #apricot_orange {
+     grid-column: 2;
+     grid-row: 3;
+     object-fit: cover;
+     width: 55%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #apricot_red {
+     grid-column: 3;
+     grid-row: 3;
+     object-fit: cover;
+     width: 55%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #Home h1 {
+     width: 100%;
+     position: absolute;
+     bottom: 10%;
+ }
+ 
+
+ 
+ /* Section */
+ 
+.project_presentation_home {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+ 
+ .background_p1 {
+    height: 40vw;
+    background: rgba(255, 255, 255, 0.287);
+    backdrop-filter: blur(25px);
+    width: 100%;
+    z-index: -1000;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    }
+
+
+
+
+.background_p2 {
+    height:40vw;
+    background: rgba(255, 255, 255, 0.287);
+    backdrop-filter: blur(25px);
+    width: 100%;
+    z-index: -1000;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+     
+ }
+ 
+ .box_1 {
+     z-index: 1000;
+     position: absolute;
+     top: 50%;
+     left: 5%;
+     -ms-transform: translate(0%, -50%);
+     transform: translate(0%, -50%);
+     width: 25%;
+ }
+ 
+ .box_2 {
+     z-index: 1000;
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     right: 5%;
+     -ms-transform: translate(0%, -50%);
+     transform: translate(0%, -50%);
+     width: 25%
+ }
+ 
+ img.img_box {
+     width: 80%;
+     /*to change image size here*/
+ }
+ 
+ .texto_1 {
+     grid-column: 2/3;
+     text-align: justify;
+     position: absolute;
+     top: 50%;
+     right: 10%;
+     -ms-transform: translate( 0%, -50%);
+     transform: translate(0%, -50%);
+ }
+ 
+ .texto_2 {
+     grid-column: 1/2;
+     text-align: justify;
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     -ms-transform: translate(0%, -50%);
+     transform: translate(0%, -50%);
+ }
+ /* #p1_txt {
+    text-align: justify;
+    position: relative;
+    padding: 120px;
+    z-index: 1000;
+} */
+ /*  #background_p3{
+    height: 30rem;
+    background: linear-gradient(90deg, rgba(54,133,194,0.5508578431372548) 24%, rgba(207,34,6,0.665703781512605) 68%);
+    backdrop-filter: blur(25px);
+    position:absolute;
+    width: 100%;
+    z-index:-1000;
+ }  */
+ /*  #p2_txt {
+     text-align: justify;
+     position: relative;
+     padding: 120px;
+     z-index: 1000;
+ } */
+ /* Footer */
+ /* footer{
+    background-color:#011C40;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    } */
+ /* footer div {
+    margin:auto;
+    width: 800px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer img{
+    width: 150px;
+    object-fit: contain;
+    background-position: top left;
+    }
+
+.foot h2{
+    color: whitesmoke;
+} */
+ /* links */
+ 
+ a:link {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ a:visited {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .dropdown-content a:hover,
+ #home_link a:hover {
+     color: #F26835;
+ }
+ /* ================= 
+   Responsive Rules
+   ================= */
+ /* FOUTEUR DE MERDE */
+ 
+ footer {
+     background-color: #011C40;
+     width: 100%;
+     height: auto;
+     display: grid;
+     grid-template-columns: 2fr 1fr 1fr;
+ }
+ 
+ footer div {
+     padding: 20px;
+     margin: 10px;
+ }
+ 
+ #sponsor {
+     text-align: center;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 105px auto auto auto;
+     grid-gap: 1rem
+ }
+ 
+ .last {
+     grid-column: 1;
+ }
+ 
+ #sponsor h1 {
+     grid-column: 1/4;
+     border-bottom: white 1px solid;
+     padding: 20px;
+     margin-top: 0px;
+     font-size: 2.2vw;
+ }
+ 
+ #sponsor img {
+     width: 50%;
+ }
+ 
+ #follow {
+     text-align: center;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 105px auto auto auto;
+     grid-gap: 7em;
+     border-left: white 1px solid;
+ }
+ 
+ #follow h1 {
+     grid-column: 1/4;
+     padding: 20px;
+     margin-top: 0px;
+     border-bottom: white 1px solid;
+     font-size: 2.2vw;
+ }
+ 
+ #follow img {
+     width: 50%;
+ }
+ 
+ #contact {
+     text-align: center;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 105px auto auto auto;
+     grid-gap: 1rem;
+     border-left: white 1px solid;
+ }
+ 
+ #contact h1 {
+     grid-column: 1/4;
+     padding: 20px;
+     margin-top: 0px;
+     border-bottom: white 1px solid;
+     font-size: 2.2vw;
+ }
+ 
+ #contact img {
+     width: 40%;
+ }
+ 
+ #mail {
+     grid-column: 2;
+ }
+ /*BootStrap customize*/
+ /*dropdown item custom*/
+
+ .lastlast{
+    grid-columns: 4;
+ }
+    </style>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><img src="assets\logo\team_2021\menu_white.svg"></label>
+            <div class="content">
+                <div class="logo"><img src="assets\logo\team_2021\Asset 1.svg" width="200px"></div>
+                <ul class="links">
+                    <li><a class="highlight-me-daddy"href="index.html">Home</a></li>
+                    <li>
+                        <a class="desktop-link">Project</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Project</label>
+                        <ul>
+                            <li><a href="description.html">Description</a></li>
+                            <li><a href="design.html">Design</a></li>
+                            <li><a href="proofofconcept.html">Proof of concept</a></li>
+                            <li><a href="contribution.html">Contribution</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="wetlab.html" class="desktop-link">Wetlab</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Wetlab</label>
+                        <ul>
+                            <li><a href="results.html">Results</a></li>
+                            <li><a href="engineering.html">Engineering Success</a></li>
+                            <li><a href="measurements.html">Measurements</a></li>
+                            <li><a href="parts.html">Parts</a></li>
+                            <li><a href="notebook.html">Lab Notebook</a></li>
+                            <li><a href="safety.html">Safety</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="desktop-link">Drylab</a>
+                        <input type="checkbox" id="show-drylab">
+                        <label for="show-drylab">Drylab</label>
+                        <ul>
+                            <li><a href="hardware.html">Hardware</a></li>
+                            <li><a href="software.html">Software</a></li>
+                            <li><a href="model.html">Model</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="human practices.html" class="desktop-link">Human Practices</a>
+                        <input type="checkbox" id="show-human">
+                        <label for="show-human">Human Practices</label>
+                        <ul>
+                            <li><a href="integratedhumanpractices.html">Integrated Human Practices</a></li>
+                            <li><a href="implementation.html">Implementation</a></li>
+                            <li><a href="communication.html">Communication</a></li>
+                            <li><a href="education.html">Education</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="desktop-link">Team</a>
+                        <input type="checkbox" id="show-team">
+                        <label for="show-team">Team</label>
+                        <ul>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="attribution.html">Attribution</a></li>
+                            <li><a href="collaboration.html">Collaboration</a></li>
+                            <li><a href="partnership.html">Partnership</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="awards.html" class="desktop-link">Awards</a>
+                        <input type="checkbox" id="show-awards">
+                        <label for="show-awards">Awards</label>
+                        <ul>
+                            <li><a href="medals.html">Medals</a></li>
+                            <li><a href="specialprizes.html">Special Prizes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <video class="background" muted autoplay>
+        <source src="assets/video/dreamstime_lower_faster.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <section class="introduction">
+
+        <div>
+            <img class="logo_Home_img" src="assets/logo/team_2021/logo_home.png" alt="Home logo">
+    
+
+        <div class="project_introduction">
+            <div id="text_intro_intro">
+                <p class="content_text">During April 2021, frost destroyed more dans 85% of the apricot crops in Switzerland. The harvest, in the swiss-romande region was the worst in the past thirty years. This problematic is not an isolated event, frost damages tend to increase over the years and concerns many countries. </p>
+            </div>
+            <img src="assets/logo/team_2021/square_logo_silouette.png" alt="silouette of apricot" id="apr_sil">
+            <img src="assets/blender/logo_monnaie_grey.png" alt="silouette of money" id="mon_sil">
+            <div id="prod_apr"><p class="content_text">This year, the production of apricot in Switzerland incurred 85% of loss.</p></div>
+            <div id="prod_mon"><p class="content_text">The costs of these damages were estimated over 5 millions of dollars.</p></div>
+        </div>
+
+        <div class="project_indepth">
+            <div id="text_intro_indepth">
+                <p class="content_text">Our spray will contain agents allowing us to combat a plant pathogen that accelerates freezing. This pathogene is a bacteria called P. Siringae and it's producing an ice nucleation protein. Our goal is then to fight agains this pathogene and
+                    simultaneously using anti-freeze protein produced in our lab. </p>
+            </div>
+
+            <div id="one_product">
+                    <p class="content_text">Our three different approach will be combined in one product.
+                    </p>
+            </div>
+                <img src="assets/logo/team_2021/square_logo_yellow.png" alt="Logo_yellow" id="apricot_yellow">
+                <img src="assets/logo/team_2021/square_logo_orange.png" alt="Logo_orange" id="apricot_orange">
+                <img src="assets/logo/team_2021/square_logo_red.png" alt="Logo_red" id="apricot_red">
+            </div>
+                
+
+    </section>
+    <section class="project_presentation_home">
+        <div class="background_p1">
+            <div class="box_1"> <img class="img_box" src="assets/logo/team_2021/test logo/square_logo_yellow_phage.png" alt="logo phages"></div>
+            <div class="texto_1">
+                <p class="content_text">Bacteriophages are natural predators of bacteria. Their mode of action is quite similar to our own (eucaryotic) viral pathogens. Once the phage attacks the bacteria, in this case P. syringae pv. syringae (Pss), it inserts its genetic material into it. Our purpose is to exploit this mechanism to make it deliver into Pss a CRISPR/Cas9 construct, which will eventually be expressed and cut the gene responsible for the ice nucleation protein production, by aiming to disarm the plant pathogen. Learn more about this part of the project following this link.</p>
+            </div>
+        </div>
+        <div class="background_p2">
+            <div class="box_2"><img class="img_box" src="assets/logo/team_2021/test logo/square_logo_orange_tailocins.png" alt="logo tailocins"></div>
+            <div class="texto_2">
+                <p class="content_text">Tailocins are proteins secreted by certain bacteria strains to attack others. These proteins are very similar in structure to phages except for the capsule. Tailocins are very specific and only attack one species. Our aim is to produce those protein in the lab and then add it to our product. Learn more about tailocins and their production following this link.
+                </p>
+            </div>
+        </div>
+        <div class="background_p1">
+            <div class="box_1"> <img class="img_box" src="assets/logo/team_2021/test logo/square_logo_red_AFP.png" alt="logo phages"></div>
+            <div class="texto_1">
+                <p class="content_text">Anti-freeze proteins (AFP) are proteins produced by various organisms, from bacteria to plants or insects, to defend themselves from the cold. This protein has the particularity to bind forming ice and prevent its growing. The global mechanism is always the same, but each AFP has its own properties. We selected three of them to fight efficiently the frost. Click here to learn more about this part of the project.</p>
+            </div>
+        </div>
+    </section>
+   <footer>
+        <div id="sponsor">
+            <h1>Sponsors</h1>
+            <a href="https://www.unil.ch/index.html" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/unil_logo_white.png" alt="UNIL logo"></a>
+            <a href="https://international.neb.com/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/biolab_logo_white.png" alt="biolab logo"></a>
+            <a href="https://www.genscript.com/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/GenScript-white.png" alt="logo genscript"></a>
+            <a href="https://eu.idtdna.com/pages" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/IDT_logo_white_rmbg.png" alt="IDT logo"></a>
+            <a href="https://www.leenaards.ch/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/leenaards-removebg-white.png" alt="fondation leenaards logo"></a>
+            <a href="https://www.microsynth.com/home-ch.html" target="_blank" rel="noopener noreferrer"><img src="assets/logo/sponsor/white/microsynth_logo_white.png" alt="microsynth logo"></a>
+            <a href="https://ch.promega.com/" target="_blank" rel="noopener noreferrer" class="last"><img src="assets/logo/sponsor/white/Promega_logo_white.png" alt="promega logo"></a>
+            <a href="https://www.twistbioscience.com/" target="_blank" rel="noopener noreferrer" class="lastlast"><img src="assets/logo/sponsor/white/Twist_Logo_white.png" alt="twist logo"></a>
+        </div>
+        <div id="follow">
+            <h1>Follow Us</h1>
+            <a href="https://instagram.com/igem_unil?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/instagram_white.png" alt="Instagram logo"></a>
+            <a href="https://twitter.com/IgemUnil" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/Twitter_white.png" alt="Twitter logo"></a>
+            <a href="https://www.linkedin.com/in/igem-unil-1526621a3/" target="_blank" rel="noopener noreferrer"><img src="assets/logo/social media/linkedin_white.png" alt="linkedin logo"></a>
+        </div>
+        <div id="contact">
+            <h1>Contact</h1>
+            <a href="mailto:igem.unil@gmail.com?subject=Mail from Our Wiki" id="mail"><img src="assets/logo/social media/logo_mail.png" alt="logo mail"></a>
+        </div>
+    </footer>
+
+
+</body>
+ 
+</html>

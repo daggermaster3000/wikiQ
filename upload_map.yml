@@ -1,4 +1,8 @@
 assets:
+  assets\4NU2_camera-spin.mp4:
+    link_URL: https://2021.igem.org/wiki/images/3/3e/T--UNILausanne--4NU2_camera-spin.mp4
+    md5: eb09c3d7f11f6dfd83e321bca7783ab4
+    upload_filename: T--UNILausanne--4NU2_camera-spin.mp4
   assets\Capture1.PNG:
     link_URL: https://2021.igem.org/wiki/images/a/a6/T--UNILausanne--Capture1.PNG
     md5: c9fd9d191ec5f6ea2b28733aacee9898
@@ -59,6 +63,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/1/1c/T--UNILausanne--fig-6-hardware.jpg
     md5: e4fde7c54cebde255a6e2396430ab76d
     upload_filename: T--UNILausanne--fig-6-hardware.jpg
+  assets\froz_4.mp4:
+    link_URL: https://2021.igem.org/wiki/images/8/85/T--UNILausanne--froz_4.mp4
+    md5: d208ad4a0c99c8d9854b03421c05c1db
+    upload_filename: T--UNILausanne--froz_4.mp4
+  assets\froz_5.mp4:
+    link_URL: https://2021.igem.org/wiki/images/9/9f/T--UNILausanne--froz_5.mp4
+    md5: 079823a4222de3adf6308067da6e4188
+    upload_filename: T--UNILausanne--froz_5.mp4
   assets\hardware-3d-1.jpg:
     link_URL: https://2021.igem.org/wiki/images/8/87/T--UNILausanne--hardware-3d-1.jpg
     md5: 4ecb5df36f903ee23210868634dac869
@@ -235,6 +247,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/8/8b/T--UNILausanne--logo--team_2021--test_logo--square_logo_yellow_phage.png
     md5: 6c3e6b73cea6baf96281485a0c6172a7
     upload_filename: T--UNILausanne--logo--team_2021--test logo--square_logo_yellow_phage.png
+  assets\tailocin-homepage.png:
+    link_URL: https://2021.igem.org/wiki/images/b/bf/T--UNILausanne--tailocin-homepage.png
+    md5: a6e299b7f6990c326429517cca909ef8
+    upload_filename: T--UNILausanne--tailocin-homepage.png
   assets\team\DSCF4840.jpeg:
     link_URL: https://2021.igem.org/wiki/images/5/5f/T--UNILausanne--team--DSCF4840.jpeg
     md5: c290f973c661bef81ca3a426405ea299
@@ -393,10 +409,13 @@ html:
     md5: 6f9a7a399bc45e795f774928b928b84a
   Hardware.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Hardware
-    md5: 90f2e8e0d00aec5b03955bd776f9d3fa
+    md5: 8a5d04b759641e32de218831e3a05a86
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Human_Practices
     md5: 6f9a7a399bc45e795f774928b928b84a
+  INDEX-FINAL.html:
+    link_URL: https://2021.igem.org/Team:UNILausanne/INDEX-FINAL
+    md5: ''
   Implementation.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Implementation
     md5: 6f9a7a399bc45e795f774928b928b84a
@@ -423,7 +442,7 @@ html:
     md5: 6f9a7a399bc45e795f774928b928b84a
   Results.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Results
-    md5: 6f9a7a399bc45e795f774928b928b84a
+    md5: 31bcfc61e8836515a7a9f3203c1b14ee
   Safety.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/Safety
     md5: 6f9a7a399bc45e795f774928b928b84a
@@ -442,9 +461,18 @@ html:
   human practices.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/human practices
     md5: ''
+  index-pablo.html:
+    link_URL: https://2021.igem.org/Team:UNILausanne/index-pablo
+    md5: 341728e97900540dec46e72f12d7fcd0
   index.html:
     link_URL: https://2021.igem.org/Team:UNILausanne
     md5: 341728e97900540dec46e72f12d7fcd0
+  index1.html:
+    link_URL: https://2021.igem.org/Team:UNILausanne/index1
+    md5: ''
+  index2.html:
+    link_URL: https://2021.igem.org/Team:UNILausanne/index2
+    md5: ''
   project.html:
     link_URL: https://2021.igem.org/Team:UNILausanne/project
     md5: 5bac8269435da0e861e91040feee040e
